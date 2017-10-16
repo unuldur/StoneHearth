@@ -3,7 +3,7 @@
 <!--Rational Software Architect Designer 9.5-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
   <uml:Package xmi:id="_VYYVgqggEeefodlx4WHiKA" name="Analyse">
     <eAnnotations xmi:id="_VYYVg6ggEeefodlx4WHiKA" source="uml2.diagrams" references="_VYYVhKggEeefodlx4WHiKA">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_VYYVhKggEeefodlx4WHiKA" type="Freeform" name="Main"/>
@@ -436,7 +436,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_QCw3hagnEeefodlx4WHiKA" type="Name"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_QCw3hqgnEeefodlx4WHiKA" type="Parent"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_QCw3h6gnEeefodlx4WHiKA" visible="false" type="Extension_Points"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QCw3gagnEeefodlx4WHiKA" x="8026" y="7525"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QCw3gagnEeefodlx4WHiKA" x="5518" y="10112"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_SPWq4KgnEeefodlx4WHiKA" element="_SPUOoKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_SPWq4qgnEeefodlx4WHiKA" type="ImageCompartment">
@@ -446,7 +446,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_SPXR8agnEeefodlx4WHiKA" type="Name"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_SPXR8qgnEeefodlx4WHiKA" type="Parent"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_SPXR86gnEeefodlx4WHiKA" visible="false" type="Extension_Points"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SPWq4agnEeefodlx4WHiKA" x="5650" y="9505"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SPWq4agnEeefodlx4WHiKA" x="7762" y="7868"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_TlCrcKgnEeefodlx4WHiKA" element="_TlAPMKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_TlDSgKgnEeefodlx4WHiKA" type="ImageCompartment">
@@ -467,6 +467,26 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_cO-VtKgnEeefodlx4WHiKA" type="Parent"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_cO-VtagnEeefodlx4WHiKA" visible="false" type="Extension_Points"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cO9uoagnEeefodlx4WHiKA" x="17768" y="133"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_y85TwLIaEeeJAdyluy-hjA" element="_y5OUsLIaEeeJAdyluy-hjA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_y9HWMLIaEeeJAdyluy-hjA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_y9HWMbIaEeeJAdyluy-hjA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_y9H9QLIaEeeJAdyluy-hjA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_y9H9QbIaEeeJAdyluy-hjA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_y9H9QrIaEeeJAdyluy-hjA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_y9H9Q7IaEeeJAdyluy-hjA" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y85TwbIaEeeJAdyluy-hjA" x="5386" y="4832"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_98HvgLIcEeeJAdyluy-hjA" element="_98F6ULIcEeeJAdyluy-hjA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_98IWkLIcEeeJAdyluy-hjA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_98IWkbIcEeeJAdyluy-hjA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_98I9oLIcEeeJAdyluy-hjA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_98I9obIcEeeJAdyluy-hjA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_98JksLIcEeeJAdyluy-hjA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_98JksbIcEeeJAdyluy-hjA" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_98HvgbIcEeeJAdyluy-hjA" x="11062" y="3908"/>
             </children>
           </children>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xcgf4agmEeefodlx4WHiKA" x="264" y="132" width="21211" height="14358"/>
@@ -507,7 +527,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_pKVY46gnEeefodlx4WHiKA" type="Name"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pKVY4agnEeefodlx4WHiKA" y="-186"/>
           </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pKUx0agnEeefodlx4WHiKA" points="[1122, 349, -7865, -2423]$[1122, 2491, -7865, -281]$[7954, 2491, -1033, -281]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pKUx0agnEeefodlx4WHiKA" points="[-1322, 0, 7093, -8550]$[-7579, 0, 836, -8550]$[-7579, 8344, 836, -206]"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_066D8KgnEeefodlx4WHiKA" id="(0.414167753150804,0.1777609682299546)"/>
         </edges>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_2VvqQKgnEeefodlx4WHiKA" element="_2VrY0KgnEeefodlx4WHiKA" source="_xbdhkKgnEeefodlx4WHiKA" target="_KFnjoKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -910,6 +930,42 @@
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8k2Q0agnEeefodlx4WHiKA" points="[-61, 8, 66, -1]$[-82, 8, 45, -1]"/>
         </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_D9T14LIdEeeJAdyluy-hjA" element="_D9SAsLIdEeeJAdyluy-hjA" source="_98HvgLIcEeeJAdyluy-hjA" target="_y85TwLIaEeeJAdyluy-hjA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_D9Uc8LIdEeeJAdyluy-hjA" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_D9Uc8rIdEeeJAdyluy-hjA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_D9VrELIdEeeJAdyluy-hjA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_D9Uc87IdEeeJAdyluy-hjA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D9Uc8bIdEeeJAdyluy-hjA" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D9T14bIdEeeJAdyluy-hjA" points="[-993, -437, 5250, 223]$[-993, -1073, 5250, -413]$[-5211, -1073, 1032, -413]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_FyNFgLIeEeeJAdyluy-hjA" element="_FyL3YLIeEeeJAdyluy-hjA" source="_QCw3gKgnEeefodlx4WHiKA" target="_y85TwLIaEeeJAdyluy-hjA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_FyOToLIeEeeJAdyluy-hjA" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_FyOTorIeEeeJAdyluy-hjA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_FyOTpLIeEeeJAdyluy-hjA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_FyOTo7IeEeeJAdyluy-hjA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FyOTobIeEeeJAdyluy-hjA" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FyNskLIeEeeJAdyluy-hjA" points="[-11, -10, 96, 102]$[-104, -87, 3, 25]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_XMDtQLIeEeeJAdyluy-hjA" element="_XMBRALIeEeeJAdyluy-hjA" source="_98HvgLIcEeeJAdyluy-hjA" target="_KeHjMKgnEeefodlx4WHiKA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_XME7YLIeEeeJAdyluy-hjA" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_XME7YrIeEeeJAdyluy-hjA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_XMFicbIeEeeJAdyluy-hjA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_XMFicLIeEeeJAdyluy-hjA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XME7YbIeEeeJAdyluy-hjA" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XMDtQbIeEeeJAdyluy-hjA" points="[3, 9, -59, -203]$[56, 187, -6, -25]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdCssLIgEeeJAdyluy-hjA" element="_sdBekLIgEeeJAdyluy-hjA" source="_SPWq4KgnEeefodlx4WHiKA" target="_y85TwLIaEeeJAdyluy-hjA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sdDTwLIgEeeJAdyluy-hjA" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdDTwrIgEeeJAdyluy-hjA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdDTxLIgEeeJAdyluy-hjA" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdDTw7IgEeeJAdyluy-hjA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdDTwbIgEeeJAdyluy-hjA" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdCssbIgEeeJAdyluy-hjA" points="[-2, -10, 89, 220]$[-41, -231, 50, -1]"/>
+        </edges>
       </contents>
     </eAnnotations>
     <packageImport xmi:id="_VYYVhaggEeefodlx4WHiKA">
@@ -1036,7 +1092,7 @@
       <ownedAttribute xmi:id="_yxEJ8KgkEeefodlx4WHiKA" name="prixDeckEuro" visibility="private"/>
       <ownedAttribute xmi:id="_5PmToKgkEeefodlx4WHiKA" name="prixDeckDollars" visibility="private"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_xcPaIKgmEeefodlx4WHiKA" name="Stone Hearth" useCase="_3nolYKgmEeefodlx4WHiKA _7jWNAKgmEeefodlx4WHiKA _KFmVgKgnEeefodlx4WHiKA _KS-DIKgnEeefodlx4WHiKA _NQF7kKgnEeefodlx4WHiKA _NcEiEKgnEeefodlx4WHiKA _PtvCsKgnEeefodlx4WHiKA _P65U8KgnEeefodlx4WHiKA _SPUOoKgnEeefodlx4WHiKA _TlAPMKgnEeefodlx4WHiKA _cO7SYKgnEeefodlx4WHiKA">
+    <packagedElement xmi:type="uml:Component" xmi:id="_xcPaIKgmEeefodlx4WHiKA" name="Stone Hearth" useCase="_3nolYKgmEeefodlx4WHiKA _7jWNAKgmEeefodlx4WHiKA _KFmVgKgnEeefodlx4WHiKA _KS-DIKgnEeefodlx4WHiKA _NQF7kKgnEeefodlx4WHiKA _NcEiEKgnEeefodlx4WHiKA _PtvCsKgnEeefodlx4WHiKA _P65U8KgnEeefodlx4WHiKA _SPUOoKgnEeefodlx4WHiKA _TlAPMKgnEeefodlx4WHiKA _cO7SYKgnEeefodlx4WHiKA _y5OUsLIaEeeJAdyluy-hjA _98F6ULIcEeeJAdyluy-hjA">
       <ownedUseCase xmi:id="_7jWNAKgmEeefodlx4WHiKA" name="Renseigner compte bancaire" subject="_xcPaIKgmEeefodlx4WHiKA">
         <extend xmi:id="_lytVwKgnEeefodlx4WHiKA" extendedCase="_cO7SYKgnEeefodlx4WHiKA" extensionLocation="_m8b98KgnEeefodlx4WHiKA"/>
         <extend xmi:id="_pKSVkKgnEeefodlx4WHiKA" extendedCase="_KFmVgKgnEeefodlx4WHiKA" extensionLocation="_061ygKgnEeefodlx4WHiKA"/>
@@ -1045,15 +1101,53 @@
       <ownedUseCase xmi:id="_KFmVgKgnEeefodlx4WHiKA" name="Accéder aux options du compte" subject="_xcPaIKgmEeefodlx4WHiKA">
         <extensionPoint xmi:id="_061ygKgnEeefodlx4WHiKA" name="ExtensionPoint1"/>
       </ownedUseCase>
-      <ownedUseCase xmi:id="_KS-DIKgnEeefodlx4WHiKA" name="Composer deck" subject="_xcPaIKgmEeefodlx4WHiKA"/>
+      <ownedUseCase xmi:id="_KS-DIKgnEeefodlx4WHiKA" name="Composer deck" subject="_xcPaIKgmEeefodlx4WHiKA">
+        <ownedComment xmi:id="_g9-VcLItEeeJAdyluy-hjA" annotatedElement="_KS-DIKgnEeefodlx4WHiKA">
+          <body>&lt;p>UC07 = Composer deck&lt;/p>&lt;p>Acteurs = Joueur connecté&lt;/p>&lt;p>Description = Le joueur cherche à créer (ou à modifier) un deck&lt;/p>&lt;p>Précondition = Le joueur est connecté&lt;/p>&lt;p>Scénario nominal&lt;/p>&lt;p>SN1 - Le joueur accède à la collection&lt;/p>&lt;p>SN2 – Le jeu affiche l'interface de la collection : on y voit les decks disponibles sur le côté et une liste des cartes possédées par le joueur (avec un ascenseur pour faire défiler toutes les cartes)&lt;/p>&lt;p>SN3 - Le joueur choisit de créer un nouveau deck&lt;/p>&lt;p>SN4 - Le jeu affiche une interface légèrement modifié de la collection : dans le coin est affiché les cartes composant le deck.&lt;/p>&lt;p>SN5 - Le joueur ajoute une carte affichée dans l'interface au deck&lt;/p>&lt;p>SN6 - Le jeu ajoute la carte au deck&lt;/p>&lt;p>SN7 - Le jeu affiche le deck avec la carte&lt;/p>&lt;p>SN8 - Le joueur arrête de composer son deck&lt;/p>&lt;p>SN9 - Le jeu affiche un message : « Voulez-vous arrêter de composer votre deck ? Il manque X cartes pour le finir »&lt;/p>&lt;p>SN10 - Le joueur accepte&lt;/p>&lt;p>SN11 - Le jeu retourne à l'affichage de la collection et un nouveau deck est affiché dans la liste des decks&lt;/p>&lt;p>Alternatives&lt;/p>&lt;p>A1 = Le joueur modifie un deck déjà disponibles. Début en SN3&lt;/p>&lt;p>A1.3 - Le joueur sélectionne un deck déjà existant&lt;/p>&lt;p>A1.4 - Le jeu affiche l'interface de deck, avec les cartes du deck choisit&lt;/p>&lt;p>A1.5 - Continuer en SN5&lt;/p>&lt;p>A2 = Le joueur recherche une carte particulière. Début en SN5&lt;/p>&lt;p>A2.5 - Appel du cas UC06 « Rechercher cartes »&lt;/p>&lt;p>A2.6 - Retour en SN5&lt;/p>&lt;p>A3 = Le joueur souhaite compléter un deck. Début en SN7&lt;/p>&lt;p>A3.7 - Après avoir ajouté une carte, le joueur peut continuer à en ajouter. Retour en SN5&lt;/p>&lt;p>A4 = Le joueur supprime un deck existant. Début en SN3&lt;/p>&lt;p>A4.3 - Le joueur supprime un deck&lt;/p>&lt;p>A4.4 - Le jeu affiche un message : « Voulez-vous vraiment supprimer ce deck ? »&lt;/p>&lt;p>A4.5 - Le joueur accepte&lt;/p>&lt;p>A4.6 - Le jeu supprime le deck&lt;/p>&lt;p>A4.7 - Le jeu affiche l'interface de la collection sans le deck&lt;/p>&lt;p>A4.8 - Retour en SN3&lt;/p>&lt;p>A5 = Le joueur veut retirer une carte de son deck. Début en SN5&lt;/p>&lt;p>A5.5 - Le joueur retire une carte de son deck&lt;/p>&lt;p>A5.6 - Le jeu retire la carte du deck&lt;/p>&lt;p>A5.7 - Le jeu affiche le deck sans la carte&lt;/p>&lt;p>A6 = Le joueur cherche à ajouter une carte alors que le deck est plein. Début en SN5&lt;/p>&lt;p>A6.5 - Le jeu affiche un message : « Vous n'avez plus de place dans votre deck, retirez des cartes pour en ajouter de nouvelles. »&lt;/p>&lt;p>A6.6 - Retour en SN5&lt;/p>&lt;p>A7 = Le joueur essaie d'ajouter une carte déjà présente dans son deck. Début en SN5&lt;/p>&lt;p>A7.5 = Le jeu affiche un message : « Cette carte est déjà dans votre deck, vous ne pouvez pas l'ajouter de nouveau. »&lt;/p>&lt;p>A7.6 - Retour en SN5&lt;/p>&lt;p>A8 = Le joueur change d'avis et veut continuer à modifier son deck. Début en SN10&lt;/p>&lt;p>A8.10 - Le joueur refuse&lt;/p>&lt;p>A8.11 - Retour en SN5&lt;/p>&lt;p>(TODO A9 = Acheter une carte ? Dans ce cas là, modifier Acheter carte pour pouvoir l'exécuter depuis Composer deck)&lt;/p>&lt;p>Exceptions&lt;/p>&lt;p>E1 = Le joueur n'a plus d'emplacement de deck libre. Début en SN4&lt;/p>&lt;p>E1.4 - Le jeu affiche un message : « Vous n'avez plus d'emplacement de deck de libre. Vous pouvez en acheter de nouveaux dans la boutique pour [2€|3$] »&lt;/p>&lt;p>E1.5 - Retour à l'affichage de la collection&lt;/p></body>
+        </ownedComment>
+        <extensionPoint xmi:id="_XMCfILIeEeeJAdyluy-hjA" name="ExtensionPoint1"/>
+        <extensionPoint xmi:id="_fSLf0LIeEeeJAdyluy-hjA" name="ExtensionPoint2"/>
+      </ownedUseCase>
       <ownedUseCase xmi:id="_NQF7kKgnEeefodlx4WHiKA" name="Acheter pack" subject="_xcPaIKgmEeefodlx4WHiKA"/>
       <ownedUseCase xmi:id="_NcEiEKgnEeefodlx4WHiKA" name="Débloquer emplacement" subject="_xcPaIKgmEeefodlx4WHiKA"/>
       <ownedUseCase xmi:id="_PtvCsKgnEeefodlx4WHiKA" name="Ouvrir pack" subject="_xcPaIKgmEeefodlx4WHiKA"/>
-      <ownedUseCase xmi:id="_P65U8KgnEeefodlx4WHiKA" name="Détruire carte" subject="_xcPaIKgmEeefodlx4WHiKA"/>
-      <ownedUseCase xmi:id="_SPUOoKgnEeefodlx4WHiKA" name="Acheter carte" subject="_xcPaIKgmEeefodlx4WHiKA"/>
+      <ownedUseCase xmi:id="_P65U8KgnEeefodlx4WHiKA" name="Détruire carte" subject="_xcPaIKgmEeefodlx4WHiKA">
+        <ownedComment xmi:id="_9L3WQLInEeeJAdyluy-hjA" annotatedElement="_P65U8KgnEeefodlx4WHiKA">
+          <body>&lt;p>UC04 = Détruire carte&lt;/p>&lt;p>Acteurs = Joueur connecté&lt;/p>&lt;p>Description = Le joueur cherche à détruire une carte non basique qu'il possède&lt;/p>&lt;p>Précondition = Le joueur est connecté&lt;/p>&lt;p>Scénario nominal&lt;/p>&lt;p>SN1 – Le joueur accède à la collection&lt;/p>&lt;p>SN2 – Le jeu affiche l'interface de la collection : on y voit les decks disponibles sur le côté et une liste des cartes possédées par le joueur (avec un ascenseur pour faire défiler toutes les cartes)&lt;/p>&lt;p>SN3 - Appel du cas UC05 : « Sélectionner carte »&lt;/p>&lt;p>SN4 - Le jeu vérifie si le joueur possède la carte&lt;/p>&lt;p>SN5 - Le jeu affiche la carte et un bouton pour la détruire&lt;/p>&lt;p>SN6 – Le joueur sélectionne le bouton de destruction&lt;/p>&lt;p>SN7 – Le jeu affiche un message de confirmation : « Voulez-vous vraiment détruire [nom de la carte] ? »&lt;/p>&lt;p>SN8 – Le joueur accepte&lt;/p>&lt;p>SN9 – Le jeu crédite le joueur d'un nombre de joyaux correspondant au coût de la carte (C = 2 : R = 5 ; L = 20)&lt;/p>&lt;p>SN10 – Le jeu supprime la carte du compte du joueur&lt;/p>&lt;p>SN11 – Le jeu affiche la carte (en indiquant que le joueur ne la possède pas)&lt;/p>&lt;p>SN12 - Le joueur déselectionne la carte&lt;/p>&lt;p>SN13 - Le jeu retourne à l'affichage de la collection&lt;/p>&lt;p>Alternatives&lt;/p>&lt;p>/&lt;/p>&lt;p>Exceptions&lt;/p>&lt;p>E1 = Le joueur annule la destruction de la carte. Possible en SN6&lt;/p>&lt;p>E2.6 - Le joueur sort de l'interface d'état de la carte&lt;/p>&lt;p>E2.7 - Retour à l'affichage des cartes et decks&lt;/p>&lt;p>E2 = Le joueur refuse la destruction de la carte. Début en SN8&lt;/p>&lt;p>E3.8 - Le joueur refuse&lt;/p>&lt;p>E3.9 - Retour à l'affichage de la carte&lt;/p>&lt;p>(E3 = Le joueur change d'avis et souhaite recréer la carte)&lt;/p></body>
+        </ownedComment>
+        <include xmi:id="_FyL3YLIeEeeJAdyluy-hjA" addition="_y5OUsLIaEeeJAdyluy-hjA"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_SPUOoKgnEeefodlx4WHiKA" name="Acheter carte" subject="_xcPaIKgmEeefodlx4WHiKA">
+        <ownedComment xmi:id="_a-5OoK2dEeeDldByE0y1SQ" annotatedElement="_SPUOoKgnEeefodlx4WHiKA">
+          <body>&lt;p>UC03 = Acheter carte&lt;/p>&lt;p>Acteurs = Joueur connecté&lt;/p>&lt;p>Description = Le joueur cherche à acheter une carte qu'il ne possède pas, avec suffisamment de joyaux pour l'acheter&lt;/p>&lt;p>Précondition = Le joueur est connecté&lt;/p>&lt;p>Scénario nominal&lt;/p>&lt;p>SN1 – Le joueur accède à la collection (TODO : cas d'utilisition spécifique, vu que c'est la base de 3 UC ? :p )&lt;/p>&lt;p>SN2 – Le jeu affiche l'interface de la collection : on y voit les decks disponibles sur le côté et une liste des cartes possédées par le joueur (avec un ascenseur pour faire défiler toutes les cartes)&lt;/p>&lt;p>SN3 - Le joueur accède à l'interface de création&lt;/p>&lt;p>SN4 - Le jeu affiche l'interface de création : quasi identique à la collection, si ce n'est que les cartes non possédées par le joueur sont aussi affichées et que les decks ne sont pas visibles&lt;/p>&lt;p>SN5 - Appel du cas UC05 : « Sélectionner carte » (TODO : l'accès à l'interface de création peut se faire à n'importe quel moment durant la recherche de la carte, ce qui n'est pas indiqué)&lt;/p>&lt;p>SN6 – Le jeu vérifie si le joueur ne possède pas la carte&lt;/p>&lt;p>SN7 – Le jeu vérifie si le joueur a assez de joyaux pour acheter la carte (C = 20 : R = 50 ; L = 200)&lt;/p>&lt;p>SN8 – Le jeu affiche la carte et un bouton pour l'acheter&lt;/p>&lt;p>SN9 – Le joueur sélectionne le bouton d'achat&lt;/p>&lt;p>SN10 – Le jeu affiche un message de confirmation : « Voulez-vous vraiment créer [nom de la carte] ? »&lt;/p>&lt;p>SN11 – Le joueur accepte&lt;/p>&lt;p>SN12 – Le jeu ajoute la carte au compte du joueur&lt;/p>&lt;p>SN13 – Le jeu débite le joueur d'un nombre de joyaux correspondant au coût de la carte&lt;/p>&lt;p>SN14 – Le jeu affiche la carte (en indiquant que le joueur la possède)&lt;/p>&lt;p>Alternatives&lt;/p>&lt;p>/&lt;/p>&lt;p>Exceptions&lt;/p>&lt;p>E1 = Le joueur possède la carte qu'il souhaite acheter. Début en SN6&lt;/p>&lt;p>E1.6 - Le jeu affiche la carte et un bouton pour la détruire. Le joueur n'a pas la possibilité d'acheter la carte&lt;/p>&lt;p>E2 = Le joueur ne possède pas assez de joyaux pour acheter la carte. Début en SN7&lt;/p>&lt;p>E2.7 - Le jeu affiche la carte, mais le bouton pour l'acheter est grisé. Le joueur n'a pas la possibilité de détruire la carte&lt;/p>&lt;p>E3 = Le joueur annule l'achat de la carte. Possible en SN9&lt;/p>&lt;p>E3.9 - Le joueur sort de l'interface d'état de la carte&lt;/p>&lt;p>E3.10 - Retour à l'affichage des cartes et decks&lt;/p>&lt;p>E4 = Le joueur refuse l'achat de la carte. Début en SN11&lt;/p>&lt;p>E4.11 - Le joueur refuse&lt;/p>&lt;p>E4.12 - Retour à l'affichage de la carte&lt;/p></body>
+        </ownedComment>
+        <include xmi:id="_RL7W0LIeEeeJAdyluy-hjA" addition="_16xaILIaEeeJAdyluy-hjA"/>
+        <include xmi:id="_ubvDcLIfEeeJAdyluy-hjA" addition="_rBJL4LIfEeeJAdyluy-hjA"/>
+        <include xmi:id="_sdBekLIgEeeJAdyluy-hjA" addition="_y5OUsLIaEeeJAdyluy-hjA"/>
+      </ownedUseCase>
       <ownedUseCase xmi:id="_TlAPMKgnEeefodlx4WHiKA" name="Jouer" subject="_xcPaIKgmEeefodlx4WHiKA"/>
       <ownedUseCase xmi:id="_cO7SYKgnEeefodlx4WHiKA" name="Créer compte" subject="_xcPaIKgmEeefodlx4WHiKA">
         <extensionPoint xmi:id="_m8b98KgnEeefodlx4WHiKA" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_y5OUsLIaEeeJAdyluy-hjA" name="Sélectionner carte" subject="_xcPaIKgmEeefodlx4WHiKA">
+        <ownedComment xmi:id="_XaJS8LImEeeJAdyluy-hjA" annotatedElement="_y5OUsLIaEeeJAdyluy-hjA">
+          <body>&lt;p>UC05 = Sélectionner carte&lt;/p>&lt;p>Acteurs = Joueur connecté&lt;/p>&lt;p>Description = Le joueur cherche à sélectionner une carte dans la collection&lt;/p>&lt;p>Précondition = Le joueur est connecté ; L'interface de collection est ouverte (que l'interface alternative de création ou de composition de deck soit ouverte n'importe pas)&lt;/p>&lt;p>Scénario nominal&lt;/p>&lt;p>SN1 - Le joueur sélectionne une carte affichée dans l'interface&lt;/p>&lt;p>SN2 - Le jeu affiche la carte, avec un bouton pour l'acheter ou la détuire ou un bouton pour la détruire grisé (non possédé / possédé non basique / possédé basique) (TODO : différentes alternatives se répercutant sur Acheter carte et Détruire carte ?)&lt;/p>&lt;p>Alternatives&lt;/p>&lt;p>A1 = Le joueur souhaite d'abord filtrer les cartes affichées. Début en SN1&lt;/p>&lt;p>A1.1 - Appel du cas UC06 « Rechercher cartes »&lt;/p>&lt;p>A1.2 - Retour en SN1&lt;/p>&lt;p>Exceptions&lt;/p>&lt;p>/&lt;/p></body>
+        </ownedComment>
+        <extensionPoint xmi:id="_D9SnwLIdEeeJAdyluy-hjA" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_16xaILIaEeeJAdyluy-hjA" name="Sélectionner carte indsiponible">
+        <extensionPoint xmi:id="_EaEDULIdEeeJAdyluy-hjA" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_98F6ULIcEeeJAdyluy-hjA" name="Rechercher carte" subject="_xcPaIKgmEeefodlx4WHiKA">
+        <ownedComment xmi:id="_YUVqULImEeeJAdyluy-hjA" annotatedElement="_98F6ULIcEeeJAdyluy-hjA">
+          <body>&lt;p>UC06 = Rechercher cartes&lt;/p>&lt;p>Acteurs = Joueur connecté&lt;/p>&lt;p>Description = Le joueur cherche à filtrer l'affichage des cartes dans la collection et la restreindre aux cartes qu'il recherche.&lt;/p>&lt;p>Précondition = Le joueur est connecté ; L'interface de collection est ouverte (que l'interface alternative de création ou de composition de deck soit ouverte n'importe pas)&lt;/p>&lt;p>Scénario nominal&lt;/p>&lt;p>SN1 – Le joueur saisit un ou plusieurs mots à rechercher&lt;/p>&lt;p>SN2 – Le jeu affiche les cartes contenant tous les mots rechecher&lt;/p>&lt;p>Alternatives&lt;/p>&lt;p>A1 = Le joueur fait une recherche de carte ne retournant aucun résultat. Début en SN2&lt;/p>&lt;p>A1.2 - Le jeu affiche un message : « La recherche n'a retourné aucune carte »&lt;/p>&lt;p>A1.3 - Retour en SN1&lt;/p>&lt;p>Exceptions&lt;/p>&lt;p>/&lt;/p></body>
+        </ownedComment>
+        <extend xmi:id="_D9SAsLIdEeeJAdyluy-hjA" extendedCase="_y5OUsLIaEeeJAdyluy-hjA" extensionLocation="_D9SnwLIdEeeJAdyluy-hjA"/>
+        <extend xmi:id="_EaDcQLIdEeeJAdyluy-hjA" extendedCase="_16xaILIaEeeJAdyluy-hjA" extensionLocation="_EaEDULIdEeeJAdyluy-hjA"/>
+        <extend xmi:id="_XMBRALIeEeeJAdyluy-hjA" extendedCase="_KS-DIKgnEeefodlx4WHiKA" extensionLocation="_XMCfILIeEeeJAdyluy-hjA"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_rBJL4LIfEeeJAdyluy-hjA" name="Sélectionner carte indisponible">
+        <include xmi:id="_u4vvkLIfEeeJAdyluy-hjA" addition="_y5OUsLIaEeeJAdyluy-hjA"/>
       </ownedUseCase>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_3nolYKgmEeefodlx4WHiKA" name="S'authentifier" subject="_xcPaIKgmEeefodlx4WHiKA">
@@ -1181,4 +1275,9 @@
     </profileApplication>
   </uml:Package>
   <Standard:Subsystem xmi:id="_xcX9AKgmEeefodlx4WHiKA" base_Component="_xcPaIKgmEeefodlx4WHiKA"/>
+  <Default:Documentation xmi:id="_a--uMK2dEeeDldByE0y1SQ" base_Comment="_a-5OoK2dEeeDldByE0y1SQ"/>
+  <Default:Documentation xmi:id="_XaZxoLImEeeJAdyluy-hjA" base_Comment="_XaJS8LImEeeJAdyluy-hjA"/>
+  <Default:Documentation xmi:id="_YUWRYLImEeeJAdyluy-hjA" base_Comment="_YUVqULImEeeJAdyluy-hjA"/>
+  <Default:Documentation xmi:id="_9L4kYLInEeeJAdyluy-hjA" base_Comment="_9L3WQLInEeeJAdyluy-hjA"/>
+  <Default:Documentation xmi:id="_g-AKoLItEeeJAdyluy-hjA" base_Comment="_g9-VcLItEeeJAdyluy-hjA"/>
 </xmi:XMI>
