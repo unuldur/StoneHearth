@@ -458,6 +458,16 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_cO-VtagnEeefodlx4WHiKA" visible="false" type="Extension_Points"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cO9uoagnEeefodlx4WHiKA" x="17768" y="133"/>
             </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_MYo6MLMfEeeDx44T0PGJyg" element="_MVccQLMfEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_MYr9gLMfEeeDx44T0PGJyg" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_MYr9gbMfEeeDx44T0PGJyg" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_MYr9grMfEeeDx44T0PGJyg" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_MYr9g7MfEeeDx44T0PGJyg" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_MYr9hLMfEeeDx44T0PGJyg" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_MYskkLMfEeeDx44T0PGJyg" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MYo6MbMfEeeDx44T0PGJyg" x="7039" y="10904"/>
+            </children>
           </children>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xcgf4agmEeefodlx4WHiKA" x="264" y="132" width="21211" height="14358"/>
         </children>
@@ -496,6 +506,15 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_UW8esa2nEeek2vzZuP3fCg" type="Name"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_UW8esq2nEeek2vzZuP3fCg" type="Parent"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UW7Qka2nEeek2vzZuP3fCg" x="22308" y="10824"/>
+        </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_qyyysLMjEeeDx44T0PGJyg" element="_qykwQLMjEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qyyysrMjEeeDx44T0PGJyg" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_qyyys7MjEeeDx44T0PGJyg" width="1455" height="2381"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_qyyytLMjEeeDx44T0PGJyg" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_qyzZwLMjEeeDx44T0PGJyg" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_qyzZwbMjEeeDx44T0PGJyg" type="Parent"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qyyysbMjEeeDx44T0PGJyg" x="12170" y="14843"/>
         </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_lyyOQKgnEeefodlx4WHiKA" element="_lytVwKgnEeefodlx4WHiKA" source="_7jXbIKgmEeefodlx4WHiKA" target="_cO9uoKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -587,86 +606,6 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_4AMZ5agnEeefodlx4WHiKA" y="1058"/>
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4ALLwagnEeefodlx4WHiKA" points="[-465, 0, 1806, 6733]$[-947, 0, 1324, 6733]$[-947, -3322, 1324, 3411]$[-2076, -3322, 195, 3411]$[-2076, -6167, 195, 566]"/>
-        </edges>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_4ZN94KgnEeefodlx4WHiKA" element="_4ZJscKgnEeefodlx4WHiKA" source="_xbdhkKgnEeefodlx4WHiKA" target="_QCw3gKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZN94qgnEeefodlx4WHiKA" type="NameLabel">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4ZN95KgnEeefodlx4WHiKA" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4ZN95agnEeefodlx4WHiKA" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ZN946gnEeefodlx4WHiKA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZN95qgnEeefodlx4WHiKA" visible="false" type="ToMultiplicityLabel" element="_4ZK6kagnEeefodlx4WHiKA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4ZN96KgnEeefodlx4WHiKA" type="ToMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4ZN956gnEeefodlx4WHiKA" y="396"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZN96agnEeefodlx4WHiKA" visible="false" type="ToRoleLabel" element="_4ZK6kagnEeefodlx4WHiKA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4ZN966gnEeefodlx4WHiKA" type="ToRole"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4ZN96qgnEeefodlx4WHiKA" y="-397"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZN97KgnEeefodlx4WHiKA" visible="false" type="FromMultiplicityLabel" element="_4ZKTgKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4ZOk8KgnEeefodlx4WHiKA" type="FromMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4ZN97agnEeefodlx4WHiKA" y="396"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZOk8agnEeefodlx4WHiKA" visible="false" type="FromRoleLabel" element="_4ZKTgKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4ZOk86gnEeefodlx4WHiKA" type="FromRole"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4ZOk8qgnEeefodlx4WHiKA" y="-397"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZOk9KgnEeefodlx4WHiKA" type="ToQualifierLabel" element="_4ZK6kagnEeefodlx4WHiKA">
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_4ZOk9qgnEeefodlx4WHiKA" type="QualifierCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4ZOk9agnEeefodlx4WHiKA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZOk96gnEeefodlx4WHiKA" type="FromQualifierLabel" element="_4ZKTgKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_4ZOk-agnEeefodlx4WHiKA" type="QualifierCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4ZOk-KgnEeefodlx4WHiKA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZOk-qgnEeefodlx4WHiKA" type="ToConstraintLabel" element="_4ZK6kagnEeefodlx4WHiKA">
-            <children xmi:type="notation:ListCompartment" xmi:id="_4ZOk_KgnEeefodlx4WHiKA" type="ToConstraintCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4ZOk-6gnEeefodlx4WHiKA" y="1058"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4ZOk_agnEeefodlx4WHiKA" type="FromConstraintLabel" element="_4ZKTgKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:ListCompartment" xmi:id="_4ZOk_6gnEeefodlx4WHiKA" type="FromConstraintCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4ZOk_qgnEeefodlx4WHiKA" y="1058"/>
-          </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4ZN94agnEeefodlx4WHiKA" points="[2, -11, -49, 309]$[55, -298, 4, 22]"/>
-        </edges>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_4z_1YKgnEeefodlx4WHiKA" element="_4z7j8KgnEeefodlx4WHiKA" source="_xbdhkKgnEeefodlx4WHiKA" target="_KeHjMKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-          <children xmi:type="notation:DecorationNode" xmi:id="_4z_1YqgnEeefodlx4WHiKA" type="NameLabel">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4z_1ZKgnEeefodlx4WHiKA" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4z_1ZagnEeefodlx4WHiKA" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4z_1Y6gnEeefodlx4WHiKA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_4z_1ZqgnEeefodlx4WHiKA" visible="false" type="ToMultiplicityLabel" element="_4z9ZIKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4z_1aKgnEeefodlx4WHiKA" type="ToMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4z_1Z6gnEeefodlx4WHiKA" y="396"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_40AccKgnEeefodlx4WHiKA" visible="false" type="ToRoleLabel" element="_4z9ZIKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_40AccqgnEeefodlx4WHiKA" type="ToRole"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_40AccagnEeefodlx4WHiKA" y="-397"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_40Acc6gnEeefodlx4WHiKA" visible="false" type="FromMultiplicityLabel" element="_4z8LAKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_40AcdagnEeefodlx4WHiKA" type="FromMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_40AcdKgnEeefodlx4WHiKA" y="396"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_40AcdqgnEeefodlx4WHiKA" visible="false" type="FromRoleLabel" element="_4z8LAKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_40AceKgnEeefodlx4WHiKA" type="FromRole"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_40Acd6gnEeefodlx4WHiKA" y="-397"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_40AceagnEeefodlx4WHiKA" type="ToQualifierLabel" element="_4z9ZIKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_40Ace6gnEeefodlx4WHiKA" type="QualifierCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_40AceqgnEeefodlx4WHiKA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_40AcfKgnEeefodlx4WHiKA" type="FromQualifierLabel" element="_4z8LAKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_40AcfqgnEeefodlx4WHiKA" type="QualifierCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_40AcfagnEeefodlx4WHiKA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_40Acf6gnEeefodlx4WHiKA" type="ToConstraintLabel" element="_4z9ZIKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:ListCompartment" xmi:id="_40AcgagnEeefodlx4WHiKA" type="ToConstraintCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_40AcgKgnEeefodlx4WHiKA" y="1058"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_40AcgqgnEeefodlx4WHiKA" type="FromConstraintLabel" element="_4z8LAKgnEeefodlx4WHiKA">
-            <children xmi:type="notation:ListCompartment" xmi:id="_40BDgKgnEeefodlx4WHiKA" type="FromConstraintCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_40Acg6gnEeefodlx4WHiKA" y="1058"/>
-          </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4z_1YagnEeefodlx4WHiKA" points="[467, 0, -1988, 6733]$[1964, 0, -491, 6733]$[1964, -2132, -491, 4601]$[1227, -2132, -1228, 4601]$[1227, -6602, -1228, 131]"/>
         </edges>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_5KmXgKgnEeefodlx4WHiKA" element="_5Kg38KgnEeefodlx4WHiKA" source="_xbdhkKgnEeefodlx4WHiKA" target="_TlCrcKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_5Km-kKgnEeefodlx4WHiKA" type="NameLabel">
@@ -1037,6 +976,144 @@
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bOPGoa2nEeek2vzZuP3fCg" points="[946, 461, -11169, -5480]$[946, 4343, -11169, -1598]$[12115, 4343, 0, -1598]$[12115, 5226, 0, -715]"/>
         </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_j-HZ4LMjEeeDx44T0PGJyg" element="_j-E9oLMjEeeDx44T0PGJyg" source="_MYo6MLMfEeeDx44T0PGJyg" target="_KeHjMKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_j-IA8LMjEeeDx44T0PGJyg" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_j-IA8rMjEeeDx44T0PGJyg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_j-IA9LMjEeeDx44T0PGJyg" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_j-IA87MjEeeDx44T0PGJyg" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j-IA8bMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j-HZ4bMjEeeDx44T0PGJyg" points="[15, -11, -90, 77]$[99, -65, -6, 23]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ubtaILMjEeeDx44T0PGJyg" element="_ubkQMLMjEeeDx44T0PGJyg" source="_qyyysLMjEeeDx44T0PGJyg" target="_KeHjMKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubtaIrMjEeeDx44T0PGJyg" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ubtaJLMjEeeDx44T0PGJyg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ubtaJbMjEeeDx44T0PGJyg" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ubtaI7MjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubuoQLMjEeeDx44T0PGJyg" visible="false" type="ToMultiplicityLabel" element="_ubpIsLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ubuoQrMjEeeDx44T0PGJyg" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubuoQbMjEeeDx44T0PGJyg" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubuoQ7MjEeeDx44T0PGJyg" visible="false" type="ToRoleLabel" element="_ubpIsLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ubuoRbMjEeeDx44T0PGJyg" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubuoRLMjEeeDx44T0PGJyg" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubvPULMjEeeDx44T0PGJyg" visible="false" type="FromMultiplicityLabel" element="_ubmscLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ubvPUrMjEeeDx44T0PGJyg" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubvPUbMjEeeDx44T0PGJyg" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubvPU7MjEeeDx44T0PGJyg" visible="false" type="FromRoleLabel" element="_ubmscLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_ubvPVbMjEeeDx44T0PGJyg" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubvPVLMjEeeDx44T0PGJyg" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubvPVrMjEeeDx44T0PGJyg" type="ToQualifierLabel" element="_ubpIsLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_ubv2YbMjEeeDx44T0PGJyg" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubv2YLMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubv2YrMjEeeDx44T0PGJyg" type="FromQualifierLabel" element="_ubmscLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_ubv2ZLMjEeeDx44T0PGJyg" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubv2Y7MjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubwdcLMjEeeDx44T0PGJyg" type="ToConstraintLabel" element="_ubpIsLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:ListCompartment" xmi:id="_ubwdcrMjEeeDx44T0PGJyg" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubwdcbMjEeeDx44T0PGJyg" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_ubwdc7MjEeeDx44T0PGJyg" type="FromConstraintLabel" element="_ubmscLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:ListCompartment" xmi:id="_ubwddbMjEeeDx44T0PGJyg" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubwddLMjEeeDx44T0PGJyg" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ubtaIbMjEeeDx44T0PGJyg" points="[-3, -11, 75, 216]$[-74, -204, 4, 23]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vx80ULMjEeeDx44T0PGJyg" element="_vx2tsLMjEeeDx44T0PGJyg" source="_qyyysLMjEeeDx44T0PGJyg" target="_QCw3gKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx9bYLMjEeeDx44T0PGJyg" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vx9bYrMjEeeDx44T0PGJyg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vx9bY7MjEeeDx44T0PGJyg" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vx9bYbMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx9bZLMjEeeDx44T0PGJyg" visible="false" type="ToMultiplicityLabel" element="_vx5xALMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vx9bZrMjEeeDx44T0PGJyg" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vx9bZbMjEeeDx44T0PGJyg" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx-CcLMjEeeDx44T0PGJyg" visible="false" type="ToRoleLabel" element="_vx5xALMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vx-CcrMjEeeDx44T0PGJyg" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vx-CcbMjEeeDx44T0PGJyg" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx-Cc7MjEeeDx44T0PGJyg" visible="false" type="FromMultiplicityLabel" element="_vx370LMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vx-CdbMjEeeDx44T0PGJyg" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vx-CdLMjEeeDx44T0PGJyg" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx-CdrMjEeeDx44T0PGJyg" visible="false" type="FromRoleLabel" element="_vx370LMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vx-CeLMjEeeDx44T0PGJyg" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vx-Cd7MjEeeDx44T0PGJyg" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx-CebMjEeeDx44T0PGJyg" type="ToQualifierLabel" element="_vx5xALMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_vx-Ce7MjEeeDx44T0PGJyg" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vx-CerMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx-CfLMjEeeDx44T0PGJyg" type="FromQualifierLabel" element="_vx370LMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_vx-CfrMjEeeDx44T0PGJyg" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vx-CfbMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx-pgLMjEeeDx44T0PGJyg" type="ToConstraintLabel" element="_vx5xALMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:ListCompartment" xmi:id="_vx-pgrMjEeeDx44T0PGJyg" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vx-pgbMjEeeDx44T0PGJyg" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_vx-pg7MjEeeDx44T0PGJyg" type="FromConstraintLabel" element="_vx370LMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:ListCompartment" xmi:id="_vx-phbMjEeeDx44T0PGJyg" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vx-phLMjEeeDx44T0PGJyg" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vx80UbMjEeeDx44T0PGJyg" points="[0, -715, 4383, 5813]$[0, -6528, 4383, 0]$[-3193, -6528, 1190, 0]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_4faTsLMjEeeDx44T0PGJyg" element="_4fVbMLMjEeeDx44T0PGJyg" source="_xbdhkKgnEeefodlx4WHiKA" target="_MYo6MLMfEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fa6wLMjEeeDx44T0PGJyg" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4fa6wrMjEeeDx44T0PGJyg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4fa6w7MjEeeDx44T0PGJyg" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4fa6wbMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fa6xLMjEeeDx44T0PGJyg" visible="false" type="ToMultiplicityLabel" element="_4fWpUrMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4fa6xrMjEeeDx44T0PGJyg" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4fa6xbMjEeeDx44T0PGJyg" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fbh0LMjEeeDx44T0PGJyg" visible="false" type="ToRoleLabel" element="_4fWpUrMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4fbh0rMjEeeDx44T0PGJyg" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4fbh0bMjEeeDx44T0PGJyg" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fbh07MjEeeDx44T0PGJyg" visible="false" type="FromMultiplicityLabel" element="_4fWCQLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4fbh1bMjEeeDx44T0PGJyg" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4fbh1LMjEeeDx44T0PGJyg" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fbh1rMjEeeDx44T0PGJyg" visible="false" type="FromRoleLabel" element="_4fWCQLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_4fbh2LMjEeeDx44T0PGJyg" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4fbh17MjEeeDx44T0PGJyg" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fbh2bMjEeeDx44T0PGJyg" type="ToQualifierLabel" element="_4fWpUrMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_4fcI4LMjEeeDx44T0PGJyg" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4fbh2rMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fcI4bMjEeeDx44T0PGJyg" type="FromQualifierLabel" element="_4fWCQLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_4fcI47MjEeeDx44T0PGJyg" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4fcI4rMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fcI5LMjEeeDx44T0PGJyg" type="ToConstraintLabel" element="_4fWpUrMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:ListCompartment" xmi:id="_4fcI5rMjEeeDx44T0PGJyg" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4fcI5bMjEeeDx44T0PGJyg" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_4fcI57MjEeeDx44T0PGJyg" type="FromConstraintLabel" element="_4fWCQLMjEeeDx44T0PGJyg">
+            <children xmi:type="notation:ListCompartment" xmi:id="_4fcI6bMjEeeDx44T0PGJyg" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4fcI6LMjEeeDx44T0PGJyg" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4faTsbMjEeeDx44T0PGJyg" points="[-8, -11, 10, 247]$[-8, -282, 10, -24]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_5prucLMjEeeDx44T0PGJyg" element="_5pp5QLMjEeeDx44T0PGJyg" source="_MYo6MLMfEeeDx44T0PGJyg" target="_QCw3gKgnEeefodlx4WHiKA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_5psVgLMjEeeDx44T0PGJyg" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_5psVgrMjEeeDx44T0PGJyg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_5psVhLMjEeeDx44T0PGJyg" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_5psVg7MjEeeDx44T0PGJyg" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5psVgbMjEeeDx44T0PGJyg" y="-186"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5prucbMjEeeDx44T0PGJyg" points="[-3, -11, -21, 152]$[-26, -157, -44, 6]"/>
+        </edges>
       </contents>
     </eAnnotations>
     <packageImport xmi:id="_VYYVhaggEeefodlx4WHiKA">
@@ -1163,7 +1240,7 @@
       <ownedAttribute xmi:id="_yxEJ8KgkEeefodlx4WHiKA" name="prixDeckEuro" visibility="private"/>
       <ownedAttribute xmi:id="_5PmToKgkEeefodlx4WHiKA" name="prixDeckDollars" visibility="private"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_xcPaIKgmEeefodlx4WHiKA" name="Stone Hearth" useCase="_3nolYKgmEeefodlx4WHiKA _7jWNAKgmEeefodlx4WHiKA _KS-DIKgnEeefodlx4WHiKA _NQF7kKgnEeefodlx4WHiKA _NcEiEKgnEeefodlx4WHiKA _PtvCsKgnEeefodlx4WHiKA _P65U8KgnEeefodlx4WHiKA _SPUOoKgnEeefodlx4WHiKA _TlAPMKgnEeefodlx4WHiKA _cO7SYKgnEeefodlx4WHiKA">
+    <packagedElement xmi:type="uml:Component" xmi:id="_xcPaIKgmEeefodlx4WHiKA" name="Stone Hearth" useCase="_3nolYKgmEeefodlx4WHiKA _7jWNAKgmEeefodlx4WHiKA _KS-DIKgnEeefodlx4WHiKA _NQF7kKgnEeefodlx4WHiKA _NcEiEKgnEeefodlx4WHiKA _PtvCsKgnEeefodlx4WHiKA _P65U8KgnEeefodlx4WHiKA _SPUOoKgnEeefodlx4WHiKA _TlAPMKgnEeefodlx4WHiKA _cO7SYKgnEeefodlx4WHiKA _MVccQLMfEeeDx44T0PGJyg">
       <ownedUseCase xmi:id="_7jWNAKgmEeefodlx4WHiKA" name="Renseigner compte bancaire" subject="_xcPaIKgmEeefodlx4WHiKA">
         <ownedComment xmi:id="_y_3c4LAlEeeSc_r1E_DBfA" annotatedElement="_7jWNAKgmEeefodlx4WHiKA">
           <body>&lt;p>&lt;span>&lt;span>&lt;span>&lt;span>UC0&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>2&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span> &lt;/span>: «&lt;span> &lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;i>Renseigner un compte bancaire&lt;/i>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span> &lt;/span>»&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Date de création : 10.10.2017&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>&lt;b>Description :&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span> &lt;/span>Un joueur existant souhaite renseigner un compte bancaire&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>&lt;b>Acteur :&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span> &lt;/span>Joueur connecté&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Préconditions&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>•&lt;span> &lt;/span>&lt;span>&lt;span>Le joueur est connecté&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Séquence Nominal&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;ol>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur clique sur 'Renseigner compte bancaire'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système demande le type de carte bancaire&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur sélectionne un type dans une liste&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système demande le numéro de la carte bancaire&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur entre son numéro&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système vérifie que le compte existe (via BD de la banque)&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système demande le cryptogramme et la date d'expiration&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur entre le cryptogramme et la date&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système vérifie que les données sont correctes (via BD de la banque)&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur clique sur valider&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système enregistre le compte bancaire lié au joueur.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;/ol>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Post conditions&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>• Le compte bancaire a été rattaché au compte&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>&lt;br>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>Alternatives&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A1. Numéro CB erroné&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN6, le compte n'existe pas&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A11. Le système affiche 'Compte inexistant. Réessayez'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A12. Retour en SN2&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A2. Carte expirée&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN9, si la carte bancaire est expirée&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A21. Le système affiche : 'Carte expirée, Entrez une carte valide'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A22. Retour en SN2&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A3. Crypto erronée&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN9, si le cryptogramme est incorrect&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A31. Le système affiche : 'Erreur. Réessayez'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A32. Retour en SN2&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Exceptions&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>E1. Annulation&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN3, SN5, SN8, SN10 le joueur peut annuler.&lt;br>FIN INTERACTION&lt;/span>&lt;/span>&lt;/span>&lt;/p></body>
@@ -1174,8 +1251,9 @@
       </ownedUseCase>
       <ownedUseCase xmi:id="_KS-DIKgnEeefodlx4WHiKA" name="Composer deck" subject="_xcPaIKgmEeefodlx4WHiKA">
         <ownedComment xmi:id="_W09mkLMIEee9ytJfeypOEg" annotatedElement="_KS-DIKgnEeefodlx4WHiKA">
-          <body>&lt;p >UC07 = Composer deck&lt;/p>&lt;p >Acteurs = Joueur connecté&lt;/p>&lt;p >Description = Le joueur cherche à créer (ou à modifier) un deck&lt;/p>&lt;p >Précondition = Le joueur est connecté&lt;/p>&lt;p >Scénario nominal&lt;/p>&lt;p >SN1 - Le joueur accède à la collection&lt;/p>&lt;p >SN2 – Le jeu affiche l'interface de la collection : on y voit les decks disponibles sur le côté et une liste des cartes possédées par le joueur (avec un ascenseur pour faire défiler toutes les cartes)&lt;/p>&lt;p >SN3 - Le joueur choisit de créer un nouveau deck&lt;/p>&lt;p >SN4 - Le jeu affiche une interface légèrement modifié de la collection : dans le coin est affiché les cartes composant le deck.&lt;/p>&lt;p >SN5 - Le joueur ajoute une carte affichée dans l'interface au deck&lt;/p>&lt;p >SN6 - Le jeu ajoute la carte au deck&lt;/p>&lt;p >SN7 - Le jeu affiche le deck avec la carte&lt;/p>&lt;p >SN8 - Le joueur arrête de composer son deck&lt;/p>&lt;p >SN9 - Le jeu affiche un message : « Voulez-vous arrêter de composer votre deck ? Il manque X cartes pour le finir »&lt;/p>&lt;p >SN10 - Le joueur accepte&lt;/p>&lt;p >SN11 - Le jeu retourne à l'affichage de la collection et un nouveau deck est affiché dans la liste des decks&lt;/p>&lt;p >Alternatives&lt;/p>&lt;p >A1 = Le joueur modifie un deck déjà disponibles. Début en SN3&lt;/p>&lt;p >A1.3 - Le joueur sélectionne un deck déjà existant&lt;/p>&lt;p >A1.4 - Le jeu affiche l'interface de deck, avec les cartes du deck choisit&lt;/p>&lt;p >A1.5 - Continuer en SN5&lt;/p>&lt;p >A2 = Le joueur recherche une carte particulière. Début en SN5&lt;/p>&lt;p >A2.5 - Appel du cas UC06 « Rechercher cartes »&lt;/p>&lt;p >A2.6 - Retour en SN5&lt;/p>&lt;p >A3 = Le joueur souhaite compléter un deck. Début en SN7&lt;/p>&lt;p >A3.7 - Après avoir ajouté une carte, le joueur peut continuer à en ajouter. Retour en SN5&lt;/p>&lt;p >A4 = Le joueur supprime un deck existant. Début en SN3&lt;/p>&lt;p >A4.3 - Le joueur supprime un deck&lt;/p>&lt;p >A4.4 - Le jeu affiche un message : « Voulez-vous vraiment supprimer ce deck ? »&lt;/p>&lt;p >A4.5 - Le joueur accepte&lt;/p>&lt;p >A4.6 - Le jeu supprime le deck&lt;/p>&lt;p >A4.7 - Le jeu affiche l'interface de la collection sans le deck&lt;/p>&lt;p >A4.8 - Retour en SN3&lt;/p>&lt;p >A5 = Le joueur veut retirer une carte de son deck. Début en SN5&lt;/p>&lt;p >A5.5 - Le joueur retire une carte de son deck&lt;/p>&lt;p >A5.6 - Le jeu retire la carte du deck&lt;/p>&lt;p >A5.7 - Le jeu affiche le deck sans la carte&lt;/p>&lt;p >A6 = Le joueur cherche à ajouter une carte alors que le deck est plein. Début en SN5&lt;/p>&lt;p >A6.5 - Le jeu affiche un message : « Vous n'avez plus de place dans votre deck, retirez des cartes pour en ajouter de nouvelles. »&lt;/p>&lt;p >A6.6 - Retour en SN5&lt;/p>&lt;p >A7 = Le joueur essaie d'ajouter une carte déjà présente dans son deck. Début en SN5&lt;/p>&lt;p >A7.5 = Le jeu affiche un message : « Cette carte est déjà dans votre deck, vous ne pouvez pas l'ajouter de nouveau. »&lt;/p>&lt;p >A7.6 - Retour en SN5&lt;/p>&lt;p >A8 = Le joueur change d'avis et veut continuer à modifier son deck. Début en SN10&lt;/p>&lt;p >A8.10 - Le joueur refuse&lt;/p>&lt;p >A8.11 - Retour en SN5&lt;/p>&lt;p >(TODO A9 = Acheter une carte ? Dans ce cas là, modifier Acheter carte pour pouvoir l'exécuter depuis Composer deck)&lt;/p>&lt;p >Exceptions&lt;/p>&lt;p >E1 = Le joueur n'a plus d'emplacement de deck libre. Début en SN4&lt;/p>&lt;p >E1.4 - Le jeu affiche un message : « Vous n'avez plus d'emplacement de deck de libre. Vous pouvez en acheter de nouveaux dans la boutique pour [2€|3$] »&lt;/p>&lt;p >E1.5 - Retour à l'affichage de la collection&lt;/p></body>
+          <body>&lt;p>UC07 = Composer deck&lt;/p>&lt;p>Acteurs = Joueur connecté&lt;/p>&lt;p>Description = Le joueur cherche à créer (ou à modifier) un deck&lt;/p>&lt;p>Précondition = Le joueur est connecté, le joueur est dans la collection&lt;/p>&lt;p>Scénario nominal&lt;/p>&lt;p>SN1 - Le joueur choisit de créer un nouveau deck&lt;/p>&lt;p>SN2 - Le jeu affiche une interface légèrement modifié de la collection : dans le coin est affiché les cartes composant le deck.&lt;/p>&lt;p>SN3 - Le joueur ajoute une carte affichée dans l'interface au deck&lt;/p>&lt;p>SN4 - Le jeu ajoute la carte au deck&lt;/p>&lt;p>SN5 - Le jeu affiche le deck avec la carte&lt;/p>&lt;p>SN6 - Le joueur arrête de composer son deck&lt;/p>&lt;p>SN7 - Le jeu affiche un message : « Voulez-vous arrêter de composer votre deck ? Il manque X cartes pour le finir »&lt;/p>&lt;p>SN8 - Le joueur accepte&lt;/p>&lt;p>SN9 - Le jeu retourne à l'affichage de la collection et un nouveau deck est affiché dans la liste des decks&lt;/p>&lt;p>Alternatives&lt;/p>&lt;p>A1 = Le joueur modifie un deck déjà disponibles. Début en SN3&lt;/p>&lt;p>A1.3 - Le joueur sélectionne un deck déjà existant&lt;/p>&lt;p>A1.4 - Le jeu affiche l'interface de deck, avec les cartes du deck choisit&lt;/p>&lt;p>A1.5 - Continuer en SN5&lt;/p>&lt;p>A2 = Le joueur recherche une carte particulière. Début en SN5&lt;/p>&lt;p>A2.5 - Appel du cas UC06 « Rechercher cartes »&lt;/p>&lt;p>A2.6 - Retour en SN5&lt;/p>&lt;p>A3 = Le joueur souhaite compléter un deck. Début en SN7&lt;/p>&lt;p>A3.7 - Après avoir ajouté une carte, le joueur peut continuer à en ajouter. Retour en SN5&lt;/p>&lt;p>A4 = Le joueur supprime un deck existant. Début en SN3&lt;/p>&lt;p>A4.3 - Le joueur supprime un deck&lt;/p>&lt;p>A4.4 - Le jeu affiche un message : « Voulez-vous vraiment supprimer ce deck ? »&lt;/p>&lt;p>A4.5 - Le joueur accepte&lt;/p>&lt;p>A4.6 - Le jeu supprime le deck&lt;/p>&lt;p>A4.7 - Le jeu affiche l'interface de la collection sans le deck&lt;/p>&lt;p>A4.8 - Retour en SN3&lt;/p>&lt;p>A5 = Le joueur veut retirer une carte de son deck. Début en SN5&lt;/p>&lt;p>A5.5 - Le joueur retire une carte de son deck&lt;/p>&lt;p>A5.6 - Le jeu retire la carte du deck&lt;/p>&lt;p>A5.7 - Le jeu affiche le deck sans la carte&lt;/p>&lt;p>A6 = Le joueur cherche à ajouter une carte alors que le deck est plein. Début en SN5&lt;/p>&lt;p>A6.5 - Le jeu affiche un message : « Vous n'avez plus de place dans votre deck, retirez des cartes pour en ajouter de nouvelles. »&lt;/p>&lt;p>A6.6 - Retour en SN5&lt;/p>&lt;p>A7 = Le joueur essaie d'ajouter une carte déjà présente dans son deck. Début en SN5&lt;/p>&lt;p>A7.5 = Le jeu affiche un message : « Cette carte est déjà dans votre deck, vous ne pouvez pas l'ajouter de nouveau. »&lt;/p>&lt;p>A7.6 - Retour en SN5&lt;/p>&lt;p>A8 = Le joueur change d'avis et veut continuer à modifier son deck. Début en SN10&lt;/p>&lt;p>A8.10 - Le joueur refuse&lt;/p>&lt;p>A8.11 - Retour en SN5&lt;/p>&lt;p>Exceptions&lt;/p>&lt;p>E1 = Le joueur n'a plus d'emplacement de deck libre. Début en SN4&lt;/p>&lt;p>E1.4 - Le jeu affiche un message : « Vous n'avez plus d'emplacement de deck de libre. Vous pouvez en acheter de nouveaux dans la boutique pour [2€|3$] »&lt;/p>&lt;p>E1.5 - Retour à l'affichage de la collection&lt;/p></body>
         </ownedComment>
+        <extensionPoint xmi:id="_j-FksLMjEeeDx44T0PGJyg" name="ExtensionPoint1"/>
       </ownedUseCase>
       <ownedUseCase xmi:id="_NQF7kKgnEeefodlx4WHiKA" name="Acheter pack" subject="_xcPaIKgmEeefodlx4WHiKA">
         <ownedComment xmi:id="_GycPgLAmEeeSc_r1E_DBfA" annotatedElement="_NQF7kKgnEeefodlx4WHiKA">
@@ -1197,10 +1275,11 @@
         <ownedComment xmi:id="_883RgLAlEeeSc_r1E_DBfA" annotatedElement="_P65U8KgnEeefodlx4WHiKA">
           <body>&lt;table border=&quot;1&quot;>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;col width=&quot;50.0%&quot;>&lt;/col>&lt;tr>&lt;td>&lt;p>&lt;span>&lt;span>&lt;b>UC04&lt;/b>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>Détruire carte&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&lt;b>Description:&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>Le joueur souhaite détruire carte&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&lt;b>Acteur:&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>Joueur&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&lt;b>Précondition:&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>Le joueur se connecter au système et a au moins une carte&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&lt;b>Sénario nominal:&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&amp;amp;1: Le joueur clique le collection.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&amp;amp;2: Le collection affiche toutes les cartes du joueur.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&amp;amp;3: Le joueur choisit le cartes ce qu’il veux détruire.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&amp;amp;4: Le systeme demande au joueur de détruire cette carte?&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&amp;amp;5: Le systeme detect le type de carte.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&amp;amp;6: Le systeme confirme le type de carte ce que le joueur veux détruire.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&amp;amp;7: Le joueur valide le détruire de carte&lt;/span>&lt;span>.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&amp;amp;8: Le système affiche toutes les carte qu’il reste.&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&amp;amp;9: Le système calcul et rends ‘joyaux’ au compte du joneur (2 yojaux normal else rare 5 joyaux sinon legendaire 20 joyaux )&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;br>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>&lt;b>Post condition:&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>La carte s’est détruire et se perdre dans le collection&lt;/span>&lt;span>,&lt;/span>&lt;span>le jounneur ganner du joyaux&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;b>Alternatif:&lt;/b>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>A1: Aucan carte&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>En SN2 si il existe pas carte dans le collection,le collection affiche vide et affiche le bouton de acheter carte et retourner au menu.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>A2:Trop de carte choisie&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>En SN3 si joueur choist plusiers que une carte en un fois ,le bouton de détruire est en couleur girs et se bolquer et montrer trop de cartes choisit.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;/p>&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;b>Exception:&lt;/b>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;td>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>EX2 Annulation détruire&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>en SN3,le joueur peut annuler détruire la carte&lt;/span>&lt;span>.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>EX3 interdit de détruire&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>En SN2 si le collection affiche vide&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>En SN3 si le joueur choist plusiers que une carte en une fois&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span style=&quot;font-size:11pt;&quot;>&lt;span>En SN5 si le système detecte le type de carte est ‘basique’&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;p>&lt;/p></body>
         </ownedComment>
+        <extensionPoint xmi:id="_5pqgULMjEeeDx44T0PGJyg" name="ExtensionPoint1"/>
       </ownedUseCase>
       <ownedUseCase xmi:id="_SPUOoKgnEeefodlx4WHiKA" name="Acheter carte" subject="_xcPaIKgmEeefodlx4WHiKA">
         <ownedComment xmi:id="_wxcMILMHEee9ytJfeypOEg" annotatedElement="_SPUOoKgnEeefodlx4WHiKA">
-          <body>&lt;p >UC03 = Acheter carte&lt;/p>&lt;p >Acteurs = Joueur connecté&lt;/p>&lt;p >Description = Le joueur cherche à acheter une carte qu'il ne possède pas, avec suffisamment de joyaux pour l'acheter&lt;/p>&lt;p >Précondition = Le joueur est connecté&lt;/p>&lt;p >Scénario nominal&lt;/p>&lt;p >SN1 – Le joueur accède à la collection (TODO : cas d'utilisition spécifique, vu que c'est la base de 3 UC ? :p )&lt;/p>&lt;p >SN2 – Le jeu affiche l'interface de la collection : on y voit les decks disponibles sur le côté et une liste des cartes possédées par le joueur (avec un ascenseur pour faire défiler toutes les cartes)&lt;/p>&lt;p >SN3 - Le joueur accède à l'interface de création&lt;/p>&lt;p >SN4 - Le jeu affiche l'interface de création : quasi identique à la collection, si ce n'est que les cartes non possédées par le joueur sont aussi affichées et que les decks ne sont pas visibles&lt;/p>&lt;p >SN5 - Appel du cas UC05 : « Sélectionner carte » (TODO : l'accès à l'interface de création peut se faire à n'importe quel moment durant la recherche de la carte, ce qui n'est pas indiqué)&lt;/p>&lt;p >SN6 – Le jeu vérifie si le joueur ne possède pas la carte&lt;/p>&lt;p >SN7 – Le jeu vérifie si le joueur a assez de joyaux pour acheter la carte (C = 20 : R = 50 ; L = 200)&lt;/p>&lt;p >SN8 – Le jeu affiche la carte et un bouton pour l'acheter&lt;/p>&lt;p >SN9 – Le joueur sélectionne le bouton d'achat&lt;/p>&lt;p >SN10 – Le jeu affiche un message de confirmation : « Voulez-vous vraiment créer [nom de la carte] ? »&lt;/p>&lt;p >SN11 – Le joueur accepte&lt;/p>&lt;p >SN12 – Le jeu ajoute la carte au compte du joueur&lt;/p>&lt;p >SN13 – Le jeu débite le joueur d'un nombre de joyaux correspondant au coût de la carte&lt;/p>&lt;p >SN14 – Le jeu affiche la carte (en indiquant que le joueur la possède)&lt;/p>&lt;p >Alternatives&lt;/p>&lt;p >/&lt;/p>&lt;p >Exceptions&lt;/p>&lt;p >E1 = Le joueur possède la carte qu'il souhaite acheter. Début en SN6&lt;/p>&lt;p >E1.6 - Le jeu affiche la carte et un bouton pour la détruire. Le joueur n'a pas la possibilité d'acheter la carte&lt;/p>&lt;p >E2 = Le joueur ne possède pas assez de joyaux pour acheter la carte. Début en SN7&lt;/p>&lt;p >E2.7 - Le jeu affiche la carte, mais le bouton pour l'acheter est grisé. Le joueur n'a pas la possibilité de détruire la carte&lt;/p>&lt;p >E3 = Le joueur annule l'achat de la carte. Possible en SN9&lt;/p>&lt;p >E3.9 - Le joueur sort de l'interface d'état de la carte&lt;/p>&lt;p >E3.10 - Retour à l'affichage des cartes et decks&lt;/p>&lt;p >E4 = Le joueur refuse l'achat de la carte. Début en SN11&lt;/p>&lt;p >E4.11 - Le joueur refuse&lt;/p>&lt;p >E4.12 - Retour à l'affichage de la carte&lt;/p></body>
+          <body>&lt;p>&lt;b>Titre&lt;/b> : Acheter carte&lt;/p>&lt;p>&lt;b>Acteur &lt;/b>: Joueur connecté&lt;/p>&lt;p>&lt;b>Description&lt;/b> : Le joueur cherche à acheter une carte qu'il ne possède pas, avec suffisamment de joyaux pour l'acheter&lt;/p>&lt;p>&lt;b>Précondition&lt;/b> : Le joueur est connecté&lt;br>&lt;/p>&lt;p>&lt;u>&lt;b>Séquence nominal&lt;/b>&lt;/u>&lt;/p>&lt;blockquote>&lt;p>1. Le joueur accède à l'interface d'achat de cartes&lt;/p>&lt;p>2. Le jeu vérifie quelles cartes le joueur possède&lt;/p>&lt;p>3. Le jeu vérifie quelles types de cartes le joueur peut acheter (C = 20 : R = 50 ; L = 200)&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>4. Le jeu affiche l'interface d'achat de cartes : affiche toutes les cartes non possédées par le joueur sous forme de liste (avec un ascenseur). Si le joueur a assez de joyaux pour acheter une carte, elle est affichée colorée en bleu&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>5. Le joueur sélectionne une carte &lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>6. Le jeu affiche la carte et un bouton pour l'acheter&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>7. Le joueur sélectionne le bouton d'achat&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>8. Le jeu affiche un message de confirmation : « Voulez-vous vraiment créer [nom de la carte] ? »&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>9. Le joueur accepte&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>10. Le jeu ajoute la carte au compte du joueur&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>11. Le jeu débite le joueur d'un nombre de joyaux correspondant au coût de la carte&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>12. Le jeu affiche la carte (en indiquant que le joueur la possède)&lt;/p>&lt;/blockquote>&lt;p>&lt;/p>&lt;p>&lt;b>Enchaînement alternatifs :&lt;/b>&lt;/p>&lt;p >A1 = Le joueur annule l'achat de la carte. Possible en SN9&lt;/p>&lt;blockquote >&lt;p >A1.9 - Le joueur sort de l'interface d'achat de cartes&lt;/p>&lt;/blockquote>&lt;blockquote >&lt;p >A1.10 - Retour en SN4&lt;/p>&lt;/blockquote>&lt;p >A2 = Le joueur refuse l'achat de la carte. Début en SN11&lt;/p>&lt;blockquote >&lt;p >A2.11 - Le joueur refuse&lt;/p>&lt;/blockquote>&lt;blockquote >&lt;p >A2.12 - Retour en SN4&lt;/p>&lt;/blockquote>&lt;p>&lt;/p>&lt;p>&lt;b>Enchaînements d'exception&lt;/b>&lt;/p>&lt;p>E1 = Le joueur ne possède pas assez de joyaux pour acheter la carte. Début en SN6&lt;/p>&lt;blockquote>&lt;p>E1.6 - Le jeu affiche la carte, mais le bouton pour l'acheter est grisé. Le joueur n'a pas la possibilité d'acheter la carte&lt;/p>&lt;/blockquote>&lt;p>&lt;/p></body>
         </ownedComment>
       </ownedUseCase>
       <ownedUseCase xmi:id="_TlAPMKgnEeefodlx4WHiKA" name="Jouer" subject="_xcPaIKgmEeefodlx4WHiKA">
@@ -1213,6 +1292,13 @@
           <body>&lt;p>&lt;span>&lt;span>&lt;span>&lt;span>UC01&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span> &lt;/span>: «&lt;span> &lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;i>Créer un compte&lt;/i>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span> &lt;/span>»&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Date de création : 10.10.2017&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>&lt;b>Description :&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span> &lt;/span>Un nouveau joueur souhaite se créer un compte&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>&lt;b>Acteur :&lt;/b>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span> &lt;/span>Nouveau joueur&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Préconditions&lt;span> &lt;/span>&lt;span>Aucun&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Séquence Nominal&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;ol>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur clique sur 'Créer compte'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système demande le nom/prénom&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur tape son nom/prénom&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système demande le pseudo&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur tape un pseudo&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système vérifie que le pseudo est unique&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système demande un mot de passe&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur tape un mot de passe&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système vérifie que le mot de passe remplit les conditions requises (8 caract min, au moins une majuscule et un chiffre)&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système affiche 'Confirmation mot de passe ?'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur tape à nouveau le mot de passe&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système vérifie que les deux mots de passe sont identiques&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur clique sur 'Valider'.&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système enregistre les données du compte dans la base de donnée&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le système affiche : 'Remplir coordonnées bancaires maintenant ?'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span>&lt;span>&lt;span>Le joueur répond 'Non'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;/li>&lt;/ol>&lt;p>&lt;br>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Post conditions&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>• Le compte a été ajouté à la BD&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>• Le joueur est connecté&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>&lt;br>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>Alternatives&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A1. Pseudo déjà existant&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN6, si le pseudo n'est pas unique&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A11. Le système affiche 'Ce pseudo est déjà pris'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A12. Retour en SN4&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A2. Mot de passe incorrect&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN9, si le mot de passe ne remplit pas les conditions&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A21. Le système affiche 'Le mdp doit contenir 8 caractères minimum...'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A22. Retour en SN7&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A3. Confirmation incorrect&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN12, si la confirmation est différente du mot de passe&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A31. Le système affiche 'Mots de passe non identiques'&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A32. Retour en SN7&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A4. Renseignement compte bancaire&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN16, le joueur répond Oui&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>A41. Executer&lt;span> &lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span>UC0&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span>2&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span> &lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span>: «&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;i>&lt;span>Renseigner compte bancaire&lt;/span>&lt;/i>&lt;/span>&lt;/span>&lt;/span>&lt;span>&lt;span>&lt;span>&lt;span>»&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>Exceptions&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>E1. Annulation&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span>&lt;span>&lt;span>En SN3, SN5, SN8, SN11, SN13 le joueur peut annuler.&lt;br>&lt;/span>&lt;/span>&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;color:#000000;font-family:HelveticaNeue;&quot;>FIN INTERACTION&lt;/span>&lt;/p></body>
         </ownedComment>
         <extensionPoint xmi:id="_m8b98KgnEeefodlx4WHiKA" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_MVccQLMfEeeDx44T0PGJyg" name="Accéder à la collection" subject="_xcPaIKgmEeefodlx4WHiKA">
+        <ownedComment xmi:id="_FHNpELMhEeeDx44T0PGJyg" annotatedElement="_MVccQLMfEeeDx44T0PGJyg">
+          <body>&lt;p>&lt;b>Titre&lt;/b> : Accéder à la collection&lt;/p>&lt;p>&lt;b>Acteur &lt;/b>: Joueur connecté&lt;/p>&lt;p>&lt;b>Description&lt;/b> : Le joueur cherche à accéder à la collection&lt;/p>&lt;p>&lt;b>Précondition&lt;/b> : Le joueur est connecté&lt;br>&lt;/p>&lt;p>&lt;u>&lt;b>Séquence nominal&lt;/b>&lt;/u>&lt;/p>&lt;blockquote>&lt;p>1. Le joueur accède à la collection&lt;/p>&lt;p>2. Le jeu affiche l'interface de la collection : on y voit les decks disponibles sur le côté et une liste des cartes possédées par le joueur (avec un ascenseur pour faire défiler toutes les cartes)&lt;/p>&lt;/blockquote>&lt;p>&lt;/p></body>
+        </ownedComment>
+        <extend xmi:id="_j-E9oLMjEeeDx44T0PGJyg" extendedCase="_KS-DIKgnEeefodlx4WHiKA" extensionLocation="_j-FksLMjEeeDx44T0PGJyg"/>
+        <extend xmi:id="_5pp5QLMjEeeDx44T0PGJyg" extendedCase="_P65U8KgnEeefodlx4WHiKA" extensionLocation="_5pqgULMjEeeDx44T0PGJyg"/>
       </ownedUseCase>
       <packagedElement xmi:type="uml:Association" xmi:id="_SOH_wK2hEeek2vzZuP3fCg" name="" memberEnd="_SOIm0K2hEeek2vzZuP3fCg _SOJN4K2hEeek2vzZuP3fCg" navigableOwnedEnd="_SOIm0K2hEeek2vzZuP3fCg _SOJN4K2hEeek2vzZuP3fCg">
         <eAnnotations xmi:id="_TteSoK2hEeek2vzZuP3fCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -1279,26 +1365,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4AIIcagnEeefodlx4WHiKA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_4ZJscKgnEeefodlx4WHiKA" memberEnd="_4ZKTgKgnEeefodlx4WHiKA _4ZK6kagnEeefodlx4WHiKA" navigableOwnedEnd="_4ZKTgKgnEeefodlx4WHiKA _4ZK6kagnEeefodlx4WHiKA">
-      <ownedEnd xmi:id="_4ZKTgKgnEeefodlx4WHiKA" name="détruire carte" visibility="private" type="_P65U8KgnEeefodlx4WHiKA" association="_4ZJscKgnEeefodlx4WHiKA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4ZK6kKgnEeefodlx4WHiKA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4ZKTgagnEeefodlx4WHiKA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_4ZK6kagnEeefodlx4WHiKA" name="joueur connecté" visibility="private" type="_xbbsYKgnEeefodlx4WHiKA" association="_4ZJscKgnEeefodlx4WHiKA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4ZLhoagnEeefodlx4WHiKA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4ZLhoKgnEeefodlx4WHiKA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_4z7j8KgnEeefodlx4WHiKA" memberEnd="_4z8LAKgnEeefodlx4WHiKA _4z9ZIKgnEeefodlx4WHiKA" navigableOwnedEnd="_4z8LAKgnEeefodlx4WHiKA _4z9ZIKgnEeefodlx4WHiKA">
-      <ownedEnd xmi:id="_4z8LAKgnEeefodlx4WHiKA" name="composer deck" visibility="private" type="_KS-DIKgnEeefodlx4WHiKA" association="_4z7j8KgnEeefodlx4WHiKA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4z8yEagnEeefodlx4WHiKA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4z8yEKgnEeefodlx4WHiKA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_4z9ZIKgnEeefodlx4WHiKA" name="joueur connecté" visibility="private" type="_xbbsYKgnEeefodlx4WHiKA" association="_4z7j8KgnEeefodlx4WHiKA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4z9ZIqgnEeefodlx4WHiKA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4z9ZIagnEeefodlx4WHiKA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_5Kg38KgnEeefodlx4WHiKA" memberEnd="_5Kg38agnEeefodlx4WHiKA _5KiGEKgnEeefodlx4WHiKA" navigableOwnedEnd="_5Kg38agnEeefodlx4WHiKA _5KiGEKgnEeefodlx4WHiKA">
       <ownedEnd xmi:id="_5Kg38agnEeefodlx4WHiKA" name="jouer" visibility="private" type="_TlAPMKgnEeefodlx4WHiKA" association="_5Kg38KgnEeefodlx4WHiKA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5KhfAagnEeefodlx4WHiKA" value="1"/>
@@ -1361,6 +1427,126 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_N48vQK2hEeek2vzZuP3fCg" name="Banque"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_UW4NQK2nEeek2vzZuP3fCg" name="Moteur de jeu"/>
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_7Rl84LMiEeeDx44T0PGJyg" name="Collaboration1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_7RsqkLMiEeeDx44T0PGJyg" name="Composer Deck">
+        <eAnnotations xmi:id="_7R4QwLMiEeeDx44T0PGJyg" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_3h7F0LMlEeeDx44T0PGJyg" type="Sequence" element="_7RsqkLMiEeeDx44T0PGJyg" name="DiagrammeSéquence - ComposerDeckNominal" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_3h7s4LMlEeeDx44T0PGJyg" element="_7RsqkLMiEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Text">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_3h7s4bMlEeeDx44T0PGJyg" type="interaction_compartment">
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_Fp9-kLMmEeeDx44T0PGJyg" element="_Fp7iULMmEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+                  <eAnnotations xmi:id="_Fp9-krMmEeeDx44T0PGJyg" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_Fp9-k7MmEeeDx44T0PGJyg" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Fp9-lLMmEeeDx44T0PGJyg" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Fp9-lbMmEeeDx44T0PGJyg" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Fp-loLMmEeeDx44T0PGJyg" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fp9-kbMmEeeDx44T0PGJyg" x="4659" y="318" width="2751" height="9525"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_Bw3mELMmEeeDx44T0PGJyg" element="_BwjdALMmEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+                  <eAnnotations xmi:id="_Bw3mErMmEeeDx44T0PGJyg" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_BxFBcLMmEeeDx44T0PGJyg" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_BxFBcbMmEeeDx44T0PGJyg" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_BxFBcrMmEeeDx44T0PGJyg" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_BxFogLMmEeeDx44T0PGJyg" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bw3mEbMmEeeDx44T0PGJyg" x="608" y="54" width="6693" height="9525"/>
+                </children>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3h7s4rMlEeeDx44T0PGJyg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3h7s47MlEeeDx44T0PGJyg" x="793" y="793"/>
+            </children>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_-zDUoLMmEeeDx44T0PGJyg" element="_-y8m8LMmEeeDx44T0PGJyg" source="_Bw3mELMmEeeDx44T0PGJyg" target="_Fp9-kLMmEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_-zD7sLMmEeeDx44T0PGJyg" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_-zD7srMmEeeDx44T0PGJyg" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_-zD7s7MmEeeDx44T0PGJyg" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-zD7sbMmEeeDx44T0PGJyg" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-zDUobMmEeeDx44T0PGJyg" points="[0, 0, -354, 0]$[354, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zFw4LMmEeeDx44T0PGJyg" id="66:1670"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zFw4bMmEeeDx44T0PGJyg" id="149:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_-zI0MLMmEeeDx44T0PGJyg" element="_-y91EbMmEeeDx44T0PGJyg" source="_Fp9-kLMmEeeDx44T0PGJyg" target="_Bw3mELMmEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_-zI0MrMmEeeDx44T0PGJyg" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_-zI0NLMmEeeDx44T0PGJyg" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_-zI0NbMmEeeDx44T0PGJyg" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-zI0M7MmEeeDx44T0PGJyg" y="476"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-zI0MbMmEeeDx44T0PGJyg" points="[0, 0, 354, 0]$[-354, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zI0NrMmEeeDx44T0PGJyg" id="150:529"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zI0N7MmEeeDx44T0PGJyg" id="151:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_CXcBYLMnEeeDx44T0PGJyg" element="_CXRpULMnEeeDx44T0PGJyg" source="_Fp9-kLMmEeeDx44T0PGJyg" target="_Fp9-kLMmEeeDx44T0PGJyg" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_CXcocLMnEeeDx44T0PGJyg" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_CXcocrMnEeeDx44T0PGJyg" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_CXcoc7MnEeeDx44T0PGJyg" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CXcocbMnEeeDx44T0PGJyg" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CXcBYbMnEeeDx44T0PGJyg" points="[0, 0, 0, -19]$[0, 19, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CXedoLMnEeeDx44T0PGJyg" id="170:291"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CXedobMnEeeDx44T0PGJyg" id="223:502"/>
+            </edges>
+          </contents>
+        </eAnnotations>
+        <ownedConnector xmi:id="_-y91E7MmEeeDx44T0PGJyg">
+          <end xmi:id="_-y91FLMmEeeDx44T0PGJyg" role="_Fp7iUbMmEeeDx44T0PGJyg"/>
+          <end xmi:id="_-y-cILMmEeeDx44T0PGJyg" role="_BwucILMmEeeDx44T0PGJyg"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_CXS3cbMnEeeDx44T0PGJyg">
+          <end xmi:id="_CXS3crMnEeeDx44T0PGJyg" role="_Fp7iUbMmEeeDx44T0PGJyg"/>
+          <end xmi:id="_CXS3c7MnEeeDx44T0PGJyg" role="_Fp7iUbMmEeeDx44T0PGJyg"/>
+        </ownedConnector>
+        <lifeline xmi:id="_BwjdALMmEeeDx44T0PGJyg" name="joueur dans la collection" represents="_BwucILMmEeeDx44T0PGJyg" coveredBy="_-y9OALMmEeeDx44T0PGJyg _-y91ErMmEeeDx44T0PGJyg"/>
+        <lifeline xmi:id="_Fp7iULMmEeeDx44T0PGJyg" name="système" represents="_Fp7iUbMmEeeDx44T0PGJyg" coveredBy="_-y9OAbMmEeeDx44T0PGJyg _-y9OArMmEeeDx44T0PGJyg _-y91ELMmEeeDx44T0PGJyg _CXRpUbMnEeeDx44T0PGJyg _CXSQYLMnEeeDx44T0PGJyg _CXSQYbMnEeeDx44T0PGJyg _CXSQYrMnEeeDx44T0PGJyg _CXS3cLMnEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-y9OALMmEeeDx44T0PGJyg" covered="_BwjdALMmEeeDx44T0PGJyg" message="_-y8m8LMmEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-y9OAbMmEeeDx44T0PGJyg" covered="_Fp7iULMmEeeDx44T0PGJyg" message="_-y8m8LMmEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_-y9OArMmEeeDx44T0PGJyg" covered="_Fp7iULMmEeeDx44T0PGJyg" start="_-y9OAbMmEeeDx44T0PGJyg" finish="_-y91ELMmEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CXRpUbMnEeeDx44T0PGJyg" covered="_Fp7iULMmEeeDx44T0PGJyg" message="_CXRpULMnEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CXSQYLMnEeeDx44T0PGJyg" covered="_Fp7iULMmEeeDx44T0PGJyg" message="_CXRpULMnEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_CXSQYbMnEeeDx44T0PGJyg" covered="_Fp7iULMmEeeDx44T0PGJyg" start="_CXSQYLMnEeeDx44T0PGJyg" finish="_CXSQYrMnEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CXSQYrMnEeeDx44T0PGJyg" covered="_Fp7iULMmEeeDx44T0PGJyg" message="_CXSQY7MnEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CXS3cLMnEeeDx44T0PGJyg" covered="_Fp7iULMmEeeDx44T0PGJyg" message="_CXSQY7MnEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-y91ELMmEeeDx44T0PGJyg" covered="_Fp7iULMmEeeDx44T0PGJyg" message="_-y91EbMmEeeDx44T0PGJyg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-y91ErMmEeeDx44T0PGJyg" covered="_BwjdALMmEeeDx44T0PGJyg" message="_-y91EbMmEeeDx44T0PGJyg"/>
+        <message xmi:id="_-y8m8LMmEeeDx44T0PGJyg" name="créerDeck" receiveEvent="_-y9OAbMmEeeDx44T0PGJyg" sendEvent="_-y9OALMmEeeDx44T0PGJyg" connector="_-y91E7MmEeeDx44T0PGJyg"/>
+        <message xmi:id="_-y91EbMmEeeDx44T0PGJyg" name="créerDeck" messageSort="reply" receiveEvent="_-y91ErMmEeeDx44T0PGJyg" sendEvent="_-y91ELMmEeeDx44T0PGJyg" connector="_-y91E7MmEeeDx44T0PGJyg"/>
+        <message xmi:id="_CXRpULMnEeeDx44T0PGJyg" name="vérifierEmplacement" receiveEvent="_CXSQYLMnEeeDx44T0PGJyg" sendEvent="_CXRpUbMnEeeDx44T0PGJyg" connector="_CXS3cbMnEeeDx44T0PGJyg"/>
+        <message xmi:id="_CXSQY7MnEeeDx44T0PGJyg" name="vérifierEmplacement" messageSort="reply" receiveEvent="_CXS3cLMnEeeDx44T0PGJyg" sendEvent="_CXSQYrMnEeeDx44T0PGJyg" connector="_CXS3cbMnEeeDx44T0PGJyg"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_BwucILMmEeeDx44T0PGJyg" name="Anna" type="_qykwQLMjEeeDx44T0PGJyg"/>
+      <ownedAttribute xmi:id="_Fp7iUbMmEeeDx44T0PGJyg" name="système" type="_E0NbQLMmEeeDx44T0PGJyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_qykwQLMjEeeDx44T0PGJyg" name="Joueur dans la collection"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ubkQMLMjEeeDx44T0PGJyg" memberEnd="_ubmscLMjEeeDx44T0PGJyg _ubpIsLMjEeeDx44T0PGJyg" navigableOwnedEnd="_ubmscLMjEeeDx44T0PGJyg _ubpIsLMjEeeDx44T0PGJyg">
+      <ownedEnd xmi:id="_ubmscLMjEeeDx44T0PGJyg" name="composer deck" visibility="private" type="_KS-DIKgnEeefodlx4WHiKA" association="_ubkQMLMjEeeDx44T0PGJyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ubohobMjEeeDx44T0PGJyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ubohoLMjEeeDx44T0PGJyg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_ubpIsLMjEeeDx44T0PGJyg" name="joueur dans la collection" visibility="private" type="_qykwQLMjEeeDx44T0PGJyg" association="_ubkQMLMjEeeDx44T0PGJyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ubpIsrMjEeeDx44T0PGJyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ubpIsbMjEeeDx44T0PGJyg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vx2tsLMjEeeDx44T0PGJyg" memberEnd="_vx370LMjEeeDx44T0PGJyg _vx5xALMjEeeDx44T0PGJyg" navigableOwnedEnd="_vx370LMjEeeDx44T0PGJyg _vx5xALMjEeeDx44T0PGJyg">
+      <ownedEnd xmi:id="_vx370LMjEeeDx44T0PGJyg" name="détruire carte" visibility="private" type="_P65U8KgnEeefodlx4WHiKA" association="_vx2tsLMjEeeDx44T0PGJyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vx5J8LMjEeeDx44T0PGJyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vx4i4LMjEeeDx44T0PGJyg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_vx5xALMjEeeDx44T0PGJyg" name="joueur dans la collection" visibility="private" type="_qykwQLMjEeeDx44T0PGJyg" association="_vx2tsLMjEeeDx44T0PGJyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vx6YEbMjEeeDx44T0PGJyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vx6YELMjEeeDx44T0PGJyg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4fVbMLMjEeeDx44T0PGJyg" memberEnd="_4fWCQLMjEeeDx44T0PGJyg _4fWpUrMjEeeDx44T0PGJyg" navigableOwnedEnd="_4fWCQLMjEeeDx44T0PGJyg _4fWpUrMjEeeDx44T0PGJyg">
+      <ownedEnd xmi:id="_4fWCQLMjEeeDx44T0PGJyg" name="accéder à la collection" visibility="private" type="_MVccQLMfEeeDx44T0PGJyg" association="_4fVbMLMjEeeDx44T0PGJyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4fWpUbMjEeeDx44T0PGJyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4fWpULMjEeeDx44T0PGJyg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_4fWpUrMjEeeDx44T0PGJyg" name="joueur connecté" visibility="private" type="_xbbsYKgnEeefodlx4WHiKA" association="_4fVbMLMjEeeDx44T0PGJyg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4fXQYbMjEeeDx44T0PGJyg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4fXQYLMjEeeDx44T0PGJyg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_E0NbQLMmEeeDx44T0PGJyg" name="Système"/>
     <profileApplication xmi:id="_VYYVhqggEeefodlx4WHiKA">
       <eAnnotations xmi:id="_VYYVh6ggEeefodlx4WHiKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
@@ -1391,4 +1577,5 @@
   <Default:Documentation xmi:id="_GycPgbAmEeeSc_r1E_DBfA" base_Comment="_GycPgLAmEeeSc_r1E_DBfA"/>
   <Default:Documentation xmi:id="_wxvHELMHEee9ytJfeypOEg" base_Comment="_wxcMILMHEee9ytJfeypOEg"/>
   <Default:Documentation xmi:id="_W09mkbMIEee9ytJfeypOEg" base_Comment="_W09mkLMIEee9ytJfeypOEg"/>
+  <Default:Documentation xmi:id="_FHR6gLMhEeeDx44T0PGJyg" base_Comment="_FHNpELMhEeeDx44T0PGJyg"/>
 </xmi:XMI>
