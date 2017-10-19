@@ -3610,7 +3610,7 @@
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_QESskLMfEeeWjKmCNKgofg" name="Collaboration1">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_QEaBULMfEeeWjKmCNKgofg" name="Interaction1">
         <eAnnotations xmi:id="_QEbPcLMfEeeWjKmCNKgofg" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QEbPcbMfEeeWjKmCNKgofg" type="Sequence" element="_QEaBULMfEeeWjKmCNKgofg" name="DiagrammeSéquence1" measurementUnit="Himetric">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QEbPcbMfEeeWjKmCNKgofg" type="Sequence" element="_QEaBULMfEeeWjKmCNKgofg" name="Authentifier" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_QEbPcrMfEeeWjKmCNKgofg" element="_QEaBULMfEeeWjKmCNKgofg" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_QEbPc7MfEeeWjKmCNKgofg" type="interaction_compartment">
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_V9YxcLMgEeeWjKmCNKgofg" element="_V9XjULMgEeeWjKmCNKgofg" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
@@ -3860,7 +3860,7 @@
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_UccJ0LMlEeeWjKmCNKgofg" name="Collaboration2">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Uccw4LMlEeeWjKmCNKgofg" name="Interaction1">
         <eAnnotations xmi:id="_Ucd_ALMlEeeWjKmCNKgofg" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ucd_AbMlEeeWjKmCNKgofg" type="Sequence" element="_Uccw4LMlEeeWjKmCNKgofg" name="DiagrammeSéquence1" measurementUnit="Himetric">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ucd_AbMlEeeWjKmCNKgofg" type="Sequence" element="_Uccw4LMlEeeWjKmCNKgofg" name="RenseignerCompteBancaire" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_Ucd_ArMlEeeWjKmCNKgofg" element="_Uccw4LMlEeeWjKmCNKgofg" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Text">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Ucd_A7MlEeeWjKmCNKgofg" type="interaction_compartment">
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_eJh6MLMlEeeWjKmCNKgofg" element="_eJgsELMlEeeWjKmCNKgofg" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
