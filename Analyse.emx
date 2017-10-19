@@ -1205,7 +1205,7 @@
       </ownedUseCase>
       <ownedUseCase xmi:id="_TlAPMKgnEeefodlx4WHiKA" name="Jouer" subject="_xcPaIKgmEeefodlx4WHiKA">
         <ownedComment xmi:id="_JsWkQK2nEeek2vzZuP3fCg" annotatedElement="_TlAPMKgnEeefodlx4WHiKA">
-          <body>&lt;p>&lt;b>&lt;u>Titre &lt;/u>&lt;/b>: Jouer&lt;/p>&lt;p>&lt;u>Acteur &lt;/u>: Joueur connecté, moteur de jeu&lt;/p>&lt;p>&lt;u>Description &lt;/u>: Le joueur lance une partie et la joue.&lt;/p>&lt;p>&lt;u>Pré-condition&lt;/u> : Le joueur est connecté et possède au moins un deck.&lt;/p>&lt;p>&lt;u>Scénario nominal&lt;/u> :&lt;/p>&lt;blockquote>&lt;p>1. Le joueur sélectionne &quot;Jouer&quot;.&lt;/p>&lt;p>2. Le système affiche les decks du joueur.&lt;/p>&lt;p>3. Le joueur selectionne le deck avec lequel il veut jouer la partie.&lt;/p>&lt;p>4. Le système système affiche &quot;Recherche du joueur adverse&quot;.&lt;/p>&lt;p>5. Le système cherche un joueur adverse de rang similaire (écart &amp;lt;= 3 rangs).&lt;/p>&lt;p>6. Le système affiche le pseudo, le rang et le deck du joueur adverse.&lt;/p>&lt;p>7. Le système transmet les deux decks et les pseudos des joueurs au moteur de jeu.&lt;/p>&lt;p>8. Le système détermine quel joueur a gagné.&lt;/p>&lt;p>9. Le système affiche le joueur gagnant.&lt;/p>&lt;p>10. Le système actualise le rang du joueur. Chaque partie gagnée incrémente le rang (sauf s'il est 100), chaque partie perdue le décrémente de 1 (sauf s'il est à 0).&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>11. Le système vérifie qu'il n'offre pas de pack au joueur.&lt;/p>&lt;p>12. Le système renvoie le joueur sur la page d'accueil.&lt;/p>&lt;/blockquote>&lt;p>&lt;u>Post-conditions&lt;/u> : Le nombre de partie jouée par le joueur a augmenté.&lt;/p>&lt;p>&lt;u>Alternatives&lt;/u> :&lt;/p>&lt;blockquote>&lt;p>A1 : Le joueur se voit offrir un pack (toutes les 10 parties jouées, dans la limite de deux packs par 24h).&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;blockquote>&lt;p>L'enchaînement démarre après le point SN11 :&lt;/p>&lt;blockquote>&lt;p>A1.1. Le système offre un pack au joueur.&lt;/p>&lt;/blockquote>&lt;/blockquote>&lt;/blockquote>&lt;p>&lt;u>Exception&lt;/u> :&lt;/p>&lt;blockquote>&lt;p>E1 : Annulation du joueur.&lt;/p>&lt;blockquote>&lt;p>L'enchaînement démarre après le point SN2 :&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;blockquote>&lt;p>E1.1. Le joueur annule la partie.&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>E1.2. Le système renvoie le joueur sur la page d'accueil.&lt;/p>&lt;/blockquote>&lt;/blockquote>&lt;/blockquote>&lt;blockquote>&lt;p>E2 : Pas de joueur adverse.&lt;/p>&lt;blockquote>&lt;p>L'enchaînement démarre après le point SN5 :&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;blockquote>&lt;p>E2.1. Le système affiche &quot;Pas d'adversaire trouvé&quot;.&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>E2.2. Le système renvoie le joueur sur la page d'accueil.&lt;/p>&lt;/blockquote>&lt;/blockquote>&lt;/blockquote>&lt;p>&lt;/p></body>
+          <body>&lt;p>&lt;b>&lt;u>Titre &lt;/u>&lt;/b>: Jouer&lt;/p>&lt;p>&lt;u>Acteur &lt;/u>: Joueur connecté, moteur de jeu&lt;/p>&lt;p>&lt;u>Description &lt;/u>: Le joueur lance une partie et la joue.&lt;/p>&lt;p>&lt;u>Pré-condition&lt;/u> : Le joueur est connecté et possède au moins un deck.&lt;/p>&lt;p>&lt;u>Scénario nominal&lt;/u> :&lt;/p>&lt;blockquote>&lt;p>1. Le joueur sélectionne &quot;Jouer&quot;.&lt;/p>&lt;p>2. Le système affiche les decks du joueur.&lt;/p>&lt;p>3. Le joueur selectionne le deck avec lequel il veut jouer la partie.&lt;/p>&lt;p>4. Le système système affiche &quot;Recherche du joueur adverse&quot;.&lt;/p>&lt;p>5. Le système cherche un joueur adverse de rang similaire (écart &amp;lt;= 3 rangs).&lt;/p>&lt;p>6. Le système affiche le pseudo, le rang et le deck du joueur adverse.&lt;/p>&lt;p>7. Le système transmet les deux decks et les pseudos des joueurs au moteur de jeu.&lt;/p>&lt;p>8. Le moteur de jeu détermine quel joueur a gagné.&lt;/p>&lt;p>9. Le système affiche le joueur gagnant.&lt;/p>&lt;p>10. Le système actualise le rang du joueur. Chaque partie gagnée incrémente le rang (sauf s'il est 100), chaque partie perdue le décrémente de 1 (sauf s'il est à 0).&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>11. Le système vérifie qu'il n'offre pas de pack au joueur.&lt;/p>&lt;p>12. Le système renvoie le joueur sur la page d'accueil.&lt;/p>&lt;/blockquote>&lt;p>&lt;u>Post-conditions&lt;/u> : Le nombre de partie jouée par le joueur a augmenté.&lt;/p>&lt;p>&lt;u>Alternatives&lt;/u> :&lt;/p>&lt;blockquote>&lt;p>A1 : Le joueur se voit offrir un pack (toutes les 10 parties jouées, dans la limite de deux packs par 24h).&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;blockquote>&lt;p>L'enchaînement démarre après le point SN11 :&lt;/p>&lt;blockquote>&lt;p>A1.1. Le système offre un pack au joueur.&lt;/p>&lt;/blockquote>&lt;/blockquote>&lt;/blockquote>&lt;p>&lt;u>Exception&lt;/u> :&lt;/p>&lt;blockquote>&lt;p>E1 : Annulation du joueur.&lt;/p>&lt;blockquote>&lt;p>L'enchaînement démarre après le point SN2 :&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;blockquote>&lt;p>E1.1. Le joueur annule la partie.&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>E1.2. Le système renvoie le joueur sur la page d'accueil.&lt;/p>&lt;/blockquote>&lt;/blockquote>&lt;/blockquote>&lt;blockquote>&lt;p>E2 : Pas de joueur adverse.&lt;/p>&lt;blockquote>&lt;p>L'enchaînement démarre après le point SN5 :&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;blockquote>&lt;p>E2.1. Le système affiche &quot;Pas d'adversaire trouvé&quot;.&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>E2.2. Le système renvoie le joueur sur la page d'accueil.&lt;/p>&lt;/blockquote>&lt;/blockquote>&lt;/blockquote>&lt;p>&lt;/p></body>
         </ownedComment>
       </ownedUseCase>
       <ownedUseCase xmi:id="_cO7SYKgnEeefodlx4WHiKA" name="Créer compte" subject="_xcPaIKgmEeefodlx4WHiKA">
@@ -1214,14 +1214,34 @@
         </ownedComment>
         <extensionPoint xmi:id="_m8b98KgnEeefodlx4WHiKA" name="ExtensionPoint1"/>
       </ownedUseCase>
-      <ownedOperation xmi:id="_27xokLPlEeehaNqGJSW1ng" name="jouerPartie"/>
-      <ownedOperation xmi:id="_5-JNYLPlEeehaNqGJSW1ng" name="afficheDecks"/>
-      <ownedOperation xmi:id="_MzQSMLPmEeehaNqGJSW1ng" name="choisirDeck"/>
-      <ownedOperation xmi:id="_QZrmULPmEeehaNqGJSW1ng" name="rechercherJoueur"/>
-      <ownedOperation xmi:id="_TLQWELPmEeehaNqGJSW1ng" name="afficheJoueur"/>
-      <ownedOperation xmi:id="_u9rUILPmEeehaNqGJSW1ng" name="afficheGagnant"/>
-      <ownedOperation xmi:id="_xRFhMLPmEeehaNqGJSW1ng" name="offrirPack"/>
-      <ownedOperation xmi:id="_y4T9sLPmEeehaNqGJSW1ng" name="gererRang"/>
+      <ownedOperation xmi:id="_27xokLPlEeehaNqGJSW1ng" name="jouerPartie">
+        <ownedParameter xmi:id="_Oxd00LS2EeetSsshk_HG8A" name="joueur" type="__4B9AKggEeefodlx4WHiKA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5-JNYLPlEeehaNqGJSW1ng" name="afficheDecks">
+        <ownedParameter xmi:id="_f0jiYLS2EeetSsshk_HG8A" name="joueur" type="__4B9AKggEeefodlx4WHiKA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MzQSMLPmEeehaNqGJSW1ng" name="choisirDeck">
+        <ownedParameter xmi:id="_o9rDALS2EeetSsshk_HG8A" name="deck" type="_2dXZYKggEeefodlx4WHiKA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_QZrmULPmEeehaNqGJSW1ng" name="rechercherJoueur">
+        <ownedParameter xmi:id="_ymdiMLS2EeetSsshk_HG8A" name="rang1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_FnrwYLS3EeetSsshk_HG8A" name="Parameter1" type="__4B9AKggEeefodlx4WHiKA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TLQWELPmEeehaNqGJSW1ng" name="afficheJoueur">
+        <ownedParameter xmi:id="_P9zPoLS3EeetSsshk_HG8A" name="joueur" type="__4B9AKggEeefodlx4WHiKA"/>
+        <ownedParameter xmi:id="_QCSuELS3EeetSsshk_HG8A" name="deck" type="_2dXZYKggEeefodlx4WHiKA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_u9rUILPmEeehaNqGJSW1ng" name="afficheGagnant">
+        <ownedParameter xmi:id="_1mOCcLS3EeetSsshk_HG8A" name="joueur" type="__4B9AKggEeefodlx4WHiKA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_xRFhMLPmEeehaNqGJSW1ng" name="offrirPack">
+        <ownedParameter xmi:id="_BL9WgLS4EeetSsshk_HG8A" name="joueur" type="__4B9AKggEeefodlx4WHiKA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_y4T9sLPmEeehaNqGJSW1ng" name="gererRang">
+        <ownedParameter xmi:id="_7SlIULS3EeetSsshk_HG8A" name="joueur" type="__4B9AKggEeefodlx4WHiKA"/>
+      </ownedOperation>
       <ownedOperation xmi:id="_1uuxMLPmEeehaNqGJSW1ng" name="retourAccueil"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_SOH_wK2hEeek2vzZuP3fCg" name="" memberEnd="_SOIm0K2hEeek2vzZuP3fCg _SOJN4K2hEeek2vzZuP3fCg" navigableOwnedEnd="_SOIm0K2hEeek2vzZuP3fCg _SOJN4K2hEeek2vzZuP3fCg">
         <eAnnotations xmi:id="_TteSoK2hEeek2vzZuP3fCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -1522,26 +1542,6 @@
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SQaecrPmEeehaNqGJSW1ng" id="352:1322"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SQaec7PmEeehaNqGJSW1ng" id="353:264"/>
             </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kjOugLPmEeehaNqGJSW1ng" element="_kid5gLPmEeehaNqGJSW1ng" source="_dmI5QLMlEeev3-rl4w2Amw" target="_bGEwQLMlEeev3-rl4w2Amw" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_kjPVkLPmEeehaNqGJSW1ng" type="MessageNameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjPVkrPmEeehaNqGJSW1ng" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjPVk7PmEeehaNqGJSW1ng" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kjPVkbPmEeehaNqGJSW1ng" y="-317"/>
-              </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kjOugbPmEeehaNqGJSW1ng" points="[0, 0, -231, 0]$[231, 0, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kjSY4LPmEeehaNqGJSW1ng" id="447:397"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kjSY4bPmEeehaNqGJSW1ng" id="479:0"/>
-            </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kji3kLPmEeehaNqGJSW1ng" element="_kigVwbPmEeehaNqGJSW1ng" source="_bGEwQLMlEeev3-rl4w2Amw" target="_dmI5QLMlEeev3-rl4w2Amw" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_kji3krPmEeehaNqGJSW1ng" visible="false" type="MessageNameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_kji3lLPmEeehaNqGJSW1ng" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjjeoLPmEeehaNqGJSW1ng" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kji3k7PmEeehaNqGJSW1ng" y="476"/>
-              </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kji3kbPmEeehaNqGJSW1ng" points="[0, 0, 231, 0]$[-231, 0, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kjjeobPmEeehaNqGJSW1ng" id="481:1322"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kjjeorPmEeehaNqGJSW1ng" id="482:0"/>
-            </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_q2k74LPmEeehaNqGJSW1ng" element="_q2NIcLPmEeehaNqGJSW1ng" source="_dmI5QLMlEeev3-rl4w2Amw" target="_dmI5QLMlEeev3-rl4w2Amw" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
               <children xmi:type="notation:DecorationNode" xmi:id="_q2k74rPmEeehaNqGJSW1ng" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_q2k75LPmEeehaNqGJSW1ng" type="Stereotype"/>
@@ -1549,7 +1549,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q2k747PmEeehaNqGJSW1ng" y="-317"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_q2k74bPmEeehaNqGJSW1ng" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q2mKALPmEeehaNqGJSW1ng" id="484:344"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q2mKALPmEeehaNqGJSW1ng" id="484:291"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q2mKAbPmEeehaNqGJSW1ng" id="489:265"/>
             </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_q2xJILPmEeehaNqGJSW1ng" element="_q2OWkLPmEeehaNqGJSW1ng" source="_dmI5QLMlEeev3-rl4w2Amw" target="_dmI5QLMlEeev3-rl4w2Amw" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -1612,6 +1612,26 @@
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0mvOYLPmEeehaNqGJSW1ng" id="511:503"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0mvOYbPmEeehaNqGJSW1ng" id="516:265"/>
             </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_8KaaILS1EeetSsshk_HG8A" element="_0mYCArPmEeehaNqGJSW1ng" source="_dmI5QLMlEeev3-rl4w2Amw" target="_dmI5QLMlEeev3-rl4w2Amw" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_8KcPULS1EeetSsshk_HG8A" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8KerkLS1EeetSsshk_HG8A" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8KerkbS1EeetSsshk_HG8A" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8KcPUbS1EeetSsshk_HG8A" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8KaaIbS1EeetSsshk_HG8A" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8KfSoLS1EeetSsshk_HG8A" id="38:1322"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8KfSobS1EeetSsshk_HG8A" id="39:264"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mRhwYLS3EeetSsshk_HG8A" element="_mQE-4LS3EeetSsshk_HG8A" source="_dmI5QLMlEeev3-rl4w2Amw" target="_bGEwQLMlEeev3-rl4w2Amw" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_mRiXcLS3EeetSsshk_HG8A" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_mRiXcrS3EeetSsshk_HG8A" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_mRiXc7S3EeetSsshk_HG8A" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mRiXcbS3EeetSsshk_HG8A" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mRhwYbS3EeetSsshk_HG8A" points="[0, 0, -231, 0]$[231, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mRlawLS3EeetSsshk_HG8A" id="40:53"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mRlawbS3EeetSsshk_HG8A" id="78:0"/>
+            </edges>
           </contents>
         </eAnnotations>
         <ownedConnector xmi:id="_Pm9zMbMmEeev3-rl4w2Amw">
@@ -1627,8 +1647,8 @@
           <end xmi:id="_f8XRELPmEeehaNqGJSW1ng" role="_dmGdALMlEeev3-rl4w2Amw"/>
         </ownedConnector>
         <lifeline xmi:id="_kjo24LMlEeev3-rl4w2Amw" name="joueur connecté" represents="_kjpd8LMlEeev3-rl4w2Amw" coveredBy="_0WoyULPlEeehaNqGJSW1ng _0WrOkbPlEeehaNqGJSW1ng _749UQLPlEeehaNqGJSW1ng _7497UbPlEeehaNqGJSW1ng"/>
-        <lifeline xmi:id="_dmF18LMlEeev3-rl4w2Amw" name="stone Hearth" represents="_dmGdALMlEeev3-rl4w2Amw" coveredBy="_0WpZYLPlEeehaNqGJSW1ng _0WqAcLPlEeehaNqGJSW1ng _0WqngLPlEeehaNqGJSW1ng _3v2J0LPlEeehaNqGJSW1ng _3v2J0bPlEeehaNqGJSW1ng _3v2w4LPlEeehaNqGJSW1ng _3v2w4bPlEeehaNqGJSW1ng _3v3X8bPlEeehaNqGJSW1ng _749UQbPlEeehaNqGJSW1ng _749UQrPlEeehaNqGJSW1ng _749UQ7PlEeehaNqGJSW1ng _OvGT0bPmEeehaNqGJSW1ng _OvG64LPmEeehaNqGJSW1ng _OvG64bPmEeehaNqGJSW1ng _OvHh8LPmEeehaNqGJSW1ng _OvHh8rPmEeehaNqGJSW1ng _SQA10bPmEeehaNqGJSW1ng _SQA10rPmEeehaNqGJSW1ng _SQBc4LPmEeehaNqGJSW1ng _SQBc4bPmEeehaNqGJSW1ng _SQBc47PmEeehaNqGJSW1ng _kiegkLPmEeehaNqGJSW1ng _kig80LPmEeehaNqGJSW1ng _q2NvgLPmEeehaNqGJSW1ng _q2NvgbPmEeehaNqGJSW1ng _q2NvgrPmEeehaNqGJSW1ng _q2Nvg7PmEeehaNqGJSW1ng _q2OWkbPmEeehaNqGJSW1ng _v0iDoLPmEeehaNqGJSW1ng _v0iqsLPmEeehaNqGJSW1ng _v0iqsbPmEeehaNqGJSW1ng _v0jRwLPmEeehaNqGJSW1ng _v0kf4LPmEeehaNqGJSW1ng _xuRMcbPmEeehaNqGJSW1ng _xuRzgLPmEeehaNqGJSW1ng _xuRzgbPmEeehaNqGJSW1ng _xuRzgrPmEeehaNqGJSW1ng _xuSakLPmEeehaNqGJSW1ng _0mXa8bPmEeehaNqGJSW1ng _0mXa8rPmEeehaNqGJSW1ng _0mYCALPmEeehaNqGJSW1ng _0mYCAbPmEeehaNqGJSW1ng _0mYCA7PmEeehaNqGJSW1ng"/>
-        <lifeline xmi:id="_bGC7ELMlEeev3-rl4w2Amw" name="moteur de jeu" represents="_bGC7EbMlEeev3-rl4w2Amw" coveredBy="_kifHoLPmEeehaNqGJSW1ng _kifusLPmEeehaNqGJSW1ng _kigVwLPmEeehaNqGJSW1ng"/>
+        <lifeline xmi:id="_dmF18LMlEeev3-rl4w2Amw" name="stone Hearth" represents="_dmGdALMlEeev3-rl4w2Amw" coveredBy="_0WpZYLPlEeehaNqGJSW1ng _0WqAcLPlEeehaNqGJSW1ng _0WqngLPlEeehaNqGJSW1ng _3v2J0LPlEeehaNqGJSW1ng _3v2J0bPlEeehaNqGJSW1ng _3v2w4LPlEeehaNqGJSW1ng _3v2w4bPlEeehaNqGJSW1ng _3v3X8bPlEeehaNqGJSW1ng _749UQbPlEeehaNqGJSW1ng _749UQrPlEeehaNqGJSW1ng _749UQ7PlEeehaNqGJSW1ng _OvGT0bPmEeehaNqGJSW1ng _OvG64LPmEeehaNqGJSW1ng _OvG64bPmEeehaNqGJSW1ng _OvHh8LPmEeehaNqGJSW1ng _OvHh8rPmEeehaNqGJSW1ng _SQA10bPmEeehaNqGJSW1ng _SQA10rPmEeehaNqGJSW1ng _SQBc4LPmEeehaNqGJSW1ng _SQBc4bPmEeehaNqGJSW1ng _SQBc47PmEeehaNqGJSW1ng _q2NvgLPmEeehaNqGJSW1ng _q2NvgbPmEeehaNqGJSW1ng _q2NvgrPmEeehaNqGJSW1ng _q2Nvg7PmEeehaNqGJSW1ng _q2OWkbPmEeehaNqGJSW1ng _v0iDoLPmEeehaNqGJSW1ng _v0iqsLPmEeehaNqGJSW1ng _v0iqsbPmEeehaNqGJSW1ng _v0jRwLPmEeehaNqGJSW1ng _v0kf4LPmEeehaNqGJSW1ng _xuRMcbPmEeehaNqGJSW1ng _xuRzgLPmEeehaNqGJSW1ng _xuRzgbPmEeehaNqGJSW1ng _xuRzgrPmEeehaNqGJSW1ng _xuSakLPmEeehaNqGJSW1ng _0mXa8bPmEeehaNqGJSW1ng _0mXa8rPmEeehaNqGJSW1ng _0mYCALPmEeehaNqGJSW1ng _0mYCAbPmEeehaNqGJSW1ng _0mYCA7PmEeehaNqGJSW1ng _mQOv4LS3EeetSsshk_HG8A _mQZvALS3EeetSsshk_HG8A"/>
+        <lifeline xmi:id="_bGC7ELMlEeev3-rl4w2Amw" name="moteur de jeu" represents="_bGC7EbMlEeev3-rl4w2Amw" coveredBy="_mQXSwLS3EeetSsshk_HG8A _mQX50LS3EeetSsshk_HG8A _mQYg4LS3EeetSsshk_HG8A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0WoyULPlEeehaNqGJSW1ng" covered="_kjo24LMlEeev3-rl4w2Amw" event="_27y2sLPlEeehaNqGJSW1ng" message="_0WoLQLPlEeehaNqGJSW1ng"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0WpZYLPlEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" event="_270E0LPlEeehaNqGJSW1ng" message="_0WoLQLPlEeehaNqGJSW1ng"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_0WqAcLPlEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" start="_0WpZYLPlEeehaNqGJSW1ng" finish="_0WqngLPlEeehaNqGJSW1ng"/>
@@ -1652,11 +1672,11 @@
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_SQBc4LPmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" start="_SQA10rPmEeehaNqGJSW1ng" finish="_SQBc4bPmEeehaNqGJSW1ng"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SQBc4bPmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" event="_TLSLQLPmEeehaNqGJSW1ng" message="_SQBc4rPmEeehaNqGJSW1ng"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SQBc47PmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" event="_TLSyULPmEeehaNqGJSW1ng" message="_SQBc4rPmEeehaNqGJSW1ng"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kiegkLPmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" message="_kid5gLPmEeehaNqGJSW1ng"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kifHoLPmEeehaNqGJSW1ng" covered="_bGC7ELMlEeev3-rl4w2Amw" message="_kid5gLPmEeehaNqGJSW1ng"/>
-        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_kifusLPmEeehaNqGJSW1ng" covered="_bGC7ELMlEeev3-rl4w2Amw" start="_kifHoLPmEeehaNqGJSW1ng" finish="_kigVwLPmEeehaNqGJSW1ng"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kigVwLPmEeehaNqGJSW1ng" covered="_bGC7ELMlEeev3-rl4w2Amw" message="_kigVwbPmEeehaNqGJSW1ng"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kig80LPmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" message="_kigVwbPmEeehaNqGJSW1ng"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mQOv4LS3EeetSsshk_HG8A" covered="_dmF18LMlEeev3-rl4w2Amw" message="_mQE-4LS3EeetSsshk_HG8A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mQXSwLS3EeetSsshk_HG8A" covered="_bGC7ELMlEeev3-rl4w2Amw" message="_mQE-4LS3EeetSsshk_HG8A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mQX50LS3EeetSsshk_HG8A" covered="_bGC7ELMlEeev3-rl4w2Amw" start="_mQXSwLS3EeetSsshk_HG8A" finish="_mQYg4LS3EeetSsshk_HG8A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mQYg4LS3EeetSsshk_HG8A" covered="_bGC7ELMlEeev3-rl4w2Amw" message="_mQZH8LS3EeetSsshk_HG8A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mQZvALS3EeetSsshk_HG8A" covered="_dmF18LMlEeev3-rl4w2Amw" message="_mQZH8LS3EeetSsshk_HG8A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q2NvgLPmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" event="_u9r7MLPmEeehaNqGJSW1ng" message="_q2NIcLPmEeehaNqGJSW1ng"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q2NvgbPmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" event="_u9siQLPmEeehaNqGJSW1ng" message="_q2NIcLPmEeehaNqGJSW1ng"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_q2NvgrPmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" start="_q2NvgbPmEeehaNqGJSW1ng" finish="_q2Nvg7PmEeehaNqGJSW1ng"/>
@@ -1679,26 +1699,85 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0mYCA7PmEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" event="_1uv_ULPmEeehaNqGJSW1ng" message="_0mYCArPmEeehaNqGJSW1ng"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_749UQ7PlEeehaNqGJSW1ng" covered="_dmF18LMlEeev3-rl4w2Amw" event="_MzQ5QLPmEeehaNqGJSW1ng" message="_7497ULPlEeehaNqGJSW1ng"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7497UbPlEeehaNqGJSW1ng" covered="_kjo24LMlEeev3-rl4w2Amw" event="_MzQ5QbPmEeehaNqGJSW1ng" message="_7497ULPlEeehaNqGJSW1ng"/>
-        <message xmi:id="_0WoLQLPlEeehaNqGJSW1ng" name="jouerPartie" receiveEvent="_0WpZYLPlEeehaNqGJSW1ng" sendEvent="_0WoyULPlEeehaNqGJSW1ng" connector="_Pm9zMbMmEeev3-rl4w2Amw"/>
+        <message xmi:id="_0WoLQLPlEeehaNqGJSW1ng" name="jouerPartie" receiveEvent="_0WpZYLPlEeehaNqGJSW1ng" sendEvent="_0WoyULPlEeehaNqGJSW1ng" connector="_Pm9zMbMmEeev3-rl4w2Amw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_Zf2qILS2EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_Zf2qIbS2EeetSsshk_HG8A" source="Parameter" references="_Oxd00LS2EeetSsshk_HG8A"/>
+            <language></language>
+            <body>j1</body>
+          </argument>
+        </message>
         <message xmi:id="_0WrOkLPlEeehaNqGJSW1ng" name="jouerPartie" messageSort="reply" receiveEvent="_0WrOkbPlEeehaNqGJSW1ng" sendEvent="_0WqngLPlEeehaNqGJSW1ng" connector="_Pm9zMbMmEeev3-rl4w2Amw"/>
-        <message xmi:id="_3v1iwLPlEeehaNqGJSW1ng" name="afficheDecks" receiveEvent="_3v2J0bPlEeehaNqGJSW1ng" sendEvent="_3v2J0LPlEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
+        <message xmi:id="_3v1iwLPlEeehaNqGJSW1ng" name="afficheDecks" receiveEvent="_3v2J0bPlEeehaNqGJSW1ng" sendEvent="_3v2J0LPlEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_kMyG4LS2EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_kMyt8LS2EeetSsshk_HG8A" source="Parameter" references="_f0jiYLS2EeetSsshk_HG8A"/>
+            <language></language>
+            <body>j1</body>
+          </argument>
+        </message>
         <message xmi:id="_3v3X8LPlEeehaNqGJSW1ng" name="afficheDecks" messageSort="reply" receiveEvent="_3v3X8bPlEeehaNqGJSW1ng" sendEvent="_3v2w4bPlEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
-        <message xmi:id="_748tMLPlEeehaNqGJSW1ng" name="choisirDeck" receiveEvent="_749UQbPlEeehaNqGJSW1ng" sendEvent="_749UQLPlEeehaNqGJSW1ng" connector="_Pm9zMbMmEeev3-rl4w2Amw"/>
+        <message xmi:id="_748tMLPlEeehaNqGJSW1ng" name="choisirDeck" receiveEvent="_749UQbPlEeehaNqGJSW1ng" sendEvent="_749UQLPlEeehaNqGJSW1ng" connector="_Pm9zMbMmEeev3-rl4w2Amw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_tA19gLS2EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_tA19gbS2EeetSsshk_HG8A" source="Parameter" references="_o9rDALS2EeetSsshk_HG8A"/>
+            <language></language>
+            <body>deck1</body>
+          </argument>
+        </message>
         <message xmi:id="_7497ULPlEeehaNqGJSW1ng" name="choisirDeck" messageSort="reply" receiveEvent="_7497UbPlEeehaNqGJSW1ng" sendEvent="_749UQ7PlEeehaNqGJSW1ng" connector="_Pm9zMbMmEeev3-rl4w2Amw"/>
-        <message xmi:id="_OvGT0LPmEeehaNqGJSW1ng" name="rechercherJoueur" receiveEvent="_OvG64LPmEeehaNqGJSW1ng" sendEvent="_OvGT0bPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
-        <message xmi:id="_OvHh8bPmEeehaNqGJSW1ng" name="rechercherJoueur" messageSort="reply" receiveEvent="_OvHh8rPmEeehaNqGJSW1ng" sendEvent="_OvHh8LPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
-        <message xmi:id="_SQA10LPmEeehaNqGJSW1ng" name="afficheJoueur" receiveEvent="_SQA10rPmEeehaNqGJSW1ng" sendEvent="_SQA10bPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
+        <message xmi:id="_OvGT0LPmEeehaNqGJSW1ng" name="rechercherJoueur" receiveEvent="_OvG64LPmEeehaNqGJSW1ng" sendEvent="_OvGT0bPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_5fHcELS2EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_5fIDILS2EeetSsshk_HG8A" source="Parameter" references="_ymdiMLS2EeetSsshk_HG8A"/>
+            <language></language>
+            <body>20</body>
+          </argument>
+        </message>
+        <message xmi:id="_OvHh8bPmEeehaNqGJSW1ng" name="rechercherJoueur" messageSort="reply" receiveEvent="_OvHh8rPmEeehaNqGJSW1ng" sendEvent="_OvHh8LPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_KkkhILS3EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_KkkhIbS3EeetSsshk_HG8A" source="Parameter" references="_ymdiMLS2EeetSsshk_HG8A"/>
+            <language></language>
+            <body>j2</body>
+          </argument>
+        </message>
+        <message xmi:id="_SQA10LPmEeehaNqGJSW1ng" name="afficheJoueur" receiveEvent="_SQA10rPmEeehaNqGJSW1ng" sendEvent="_SQA10bPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_fAz70LS3EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_fAz70bS3EeetSsshk_HG8A" source="Parameter" references="_P9zPoLS3EeetSsshk_HG8A"/>
+            <language></language>
+            <body>j2</body>
+          </argument>
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_fFSzMLS3EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_fFSzMbS3EeetSsshk_HG8A" source="Parameter" references="_QCSuELS3EeetSsshk_HG8A"/>
+            <language></language>
+            <body>deck2</body>
+          </argument>
+        </message>
         <message xmi:id="_SQBc4rPmEeehaNqGJSW1ng" name="afficheJoueur" messageSort="reply" receiveEvent="_SQBc47PmEeehaNqGJSW1ng" sendEvent="_SQBc4bPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
-        <message xmi:id="_kid5gLPmEeehaNqGJSW1ng" name="determineGagnant" receiveEvent="_kifHoLPmEeehaNqGJSW1ng" sendEvent="_kiegkLPmEeehaNqGJSW1ng" connector="_f8WqALPmEeehaNqGJSW1ng"/>
-        <message xmi:id="_kigVwbPmEeehaNqGJSW1ng" name="determineGagnant" messageSort="reply" receiveEvent="_kig80LPmEeehaNqGJSW1ng" sendEvent="_kigVwLPmEeehaNqGJSW1ng" connector="_f8WqALPmEeehaNqGJSW1ng"/>
-        <message xmi:id="_q2NIcLPmEeehaNqGJSW1ng" name="afficheGagnant" receiveEvent="_q2NvgbPmEeehaNqGJSW1ng" sendEvent="_q2NvgLPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
+        <message xmi:id="_q2NIcLPmEeehaNqGJSW1ng" name="afficheGagnant" receiveEvent="_q2NvgbPmEeehaNqGJSW1ng" sendEvent="_q2NvgLPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_5NiHYLS3EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_5NiHYbS3EeetSsshk_HG8A" source="Parameter" references="_1mOCcLS3EeetSsshk_HG8A"/>
+            <language></language>
+            <body>j1</body>
+          </argument>
+        </message>
         <message xmi:id="_q2OWkLPmEeehaNqGJSW1ng" name="afficheGagnant" messageSort="reply" receiveEvent="_q2OWkbPmEeehaNqGJSW1ng" sendEvent="_q2Nvg7PmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
-        <message xmi:id="_v0hckLPmEeehaNqGJSW1ng" name="offrirPack" receiveEvent="_v0iqsLPmEeehaNqGJSW1ng" sendEvent="_v0iDoLPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
+        <message xmi:id="_v0hckLPmEeehaNqGJSW1ng" name="offrirPack" receiveEvent="_v0iqsLPmEeehaNqGJSW1ng" sendEvent="_v0iDoLPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_IbW8cLS4EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_IbW8cbS4EeetSsshk_HG8A" source="Parameter" references="_BL9WgLS4EeetSsshk_HG8A"/>
+            <language></language>
+            <body>j1</body>
+          </argument>
+        </message>
         <message xmi:id="_v0j40LPmEeehaNqGJSW1ng" name="offrirPack" messageSort="reply" receiveEvent="_v0kf4LPmEeehaNqGJSW1ng" sendEvent="_v0jRwLPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
-        <message xmi:id="_xuRMcLPmEeehaNqGJSW1ng" name="gererRang" receiveEvent="_xuRzgLPmEeehaNqGJSW1ng" sendEvent="_xuRMcbPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
+        <message xmi:id="_xuRMcLPmEeehaNqGJSW1ng" name="gererRang" receiveEvent="_xuRzgLPmEeehaNqGJSW1ng" sendEvent="_xuRMcbPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_9_Fx4LS3EeetSsshk_HG8A">
+            <eAnnotations xmi:id="_9_Fx4bS3EeetSsshk_HG8A" source="Parameter" references="_7SlIULS3EeetSsshk_HG8A"/>
+            <language></language>
+            <body>j1</body>
+          </argument>
+        </message>
         <message xmi:id="_xuRzg7PmEeehaNqGJSW1ng" name="gererRang" messageSort="reply" receiveEvent="_xuSakLPmEeehaNqGJSW1ng" sendEvent="_xuRzgrPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
         <message xmi:id="_0mXa8LPmEeehaNqGJSW1ng" name="retourAccueil" receiveEvent="_0mXa8rPmEeehaNqGJSW1ng" sendEvent="_0mXa8bPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
         <message xmi:id="_0mYCArPmEeehaNqGJSW1ng" name="retourAccueil" messageSort="reply" receiveEvent="_0mYCA7PmEeehaNqGJSW1ng" sendEvent="_0mYCAbPmEeehaNqGJSW1ng" connector="_jwWVgLPlEeehaNqGJSW1ng"/>
+        <message xmi:id="_mQE-4LS3EeetSsshk_HG8A" name="designeGagnant(j1,j2,deck1,deck2)" receiveEvent="_mQXSwLS3EeetSsshk_HG8A" sendEvent="_mQOv4LS3EeetSsshk_HG8A" connector="_f8WqALPmEeehaNqGJSW1ng"/>
+        <message xmi:id="_mQZH8LS3EeetSsshk_HG8A" name="designeGagnant(j1,j2,deck1,deck2)" messageSort="reply" receiveEvent="_mQZvALS3EeetSsshk_HG8A" sendEvent="_mQYg4LS3EeetSsshk_HG8A" connector="_f8WqALPmEeehaNqGJSW1ng"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_bGC7EbMlEeev3-rl4w2Amw" name="moteur de jeu" type="_UW4NQK2nEeek2vzZuP3fCg"/>
       <ownedAttribute xmi:id="_dmGdALMlEeev3-rl4w2Amw" name="stone Hearth" type="_xcPaIKgmEeefodlx4WHiKA"/>
