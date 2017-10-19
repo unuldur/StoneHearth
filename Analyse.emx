@@ -1038,7 +1038,7 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bOPGoa2nEeek2vzZuP3fCg" points="[946, 461, -11169, -5480]$[946, 4343, -11169, -1598]$[12115, 4343, 0, -1598]$[12115, 5226, 0, -715]"/>
         </edges>
       </contents>
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ha-tYLMfEeeWjKmCNKgofg" type="Class" name="systeme">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ha-tYLMfEeeWjKmCNKgofg" type="Class" name="systeme2">
         <children xmi:type="umlnotation:UMLShape" xmi:id="_NOKM8LMfEeeWjKmCNKgofg" element="_MC5TsLMfEeeWjKmCNKgofg" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_NOK0ALMfEeeWjKmCNKgofg" type="ImageCompartment">
             <layoutConstraint xmi:type="notation:Size" xmi:id="_NOK0AbMfEeeWjKmCNKgofg" width="1320" height="1320"/>
@@ -1379,7 +1379,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_N48vQK2hEeek2vzZuP3fCg" name="Banque"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_UW4NQK2nEeek2vzZuP3fCg" name="Moteur de jeu"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_MC5TsLMfEeeWjKmCNKgofg" name="StoneHearth">
+    <packagedElement xmi:type="uml:Class" xmi:id="_MC5TsLMfEeeWjKmCNKgofg" name="StoneHearth2">
       <ownedOperation xmi:id="_4RKjsLMgEeeWjKmCNKgofg" name="DemarrerAuth"/>
       <ownedOperation xmi:id="_CoQTULMhEeeWjKmCNKgofg" name="afficherSaisieJoueur" visibility="private"/>
       <ownedOperation xmi:id="_pSrVsLMhEeeWjKmCNKgofg" name="DemarrerConnexion"/>
