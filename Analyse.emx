@@ -1078,7 +1078,7 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uskS4bMeEeerA64y2jiNjw" points="[896, -328, -6237, 2311]$[4668, -328, -2465, 2311]$[4668, -797, -2465, 1842]$[7133, -797, 0, 1842]$[7133, -2427, 0, 212]"/>
         </edges>
       </contents>
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_iFYhMLMkEeerA64y2jiNjw" type="Class" name="systeme">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_iFYhMLMkEeerA64y2jiNjw" type="Class" name="systeme2">
         <children xmi:type="umlnotation:UMLShape" xmi:id="_mWETQLMkEeerA64y2jiNjw" element="_84YxALMhEeerA64y2jiNjw" fontName="Cantarell" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_mWE6ULMkEeerA64y2jiNjw" type="ImageCompartment">
             <layoutConstraint xmi:type="notation:Size" xmi:id="_mWE6UbMkEeerA64y2jiNjw" width="1320" height="1320"/>
