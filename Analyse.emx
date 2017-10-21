@@ -1432,7 +1432,7 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_6Ci3MLMfEeerA64y2jiNjw" name="Collaboration1">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_6JDu4LMfEeerA64y2jiNjw" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_6JDu4LMfEeerA64y2jiNjw" name="OuvrirPacks">
         <eAnnotations xmi:id="_6JInYLMfEeerA64y2jiNjw" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6JInYbMfEeerA64y2jiNjw" type="Sequence" element="_6JDu4LMfEeerA64y2jiNjw" name="Ouvrir Packs" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_6JInYrMfEeerA64y2jiNjw" element="_6JDu4LMfEeerA64y2jiNjw" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
@@ -1685,7 +1685,7 @@
       <ownedAttribute xmi:id="_HkBNQbMiEeerA64y2jiNjw" name="Sys" type="_84YxALMhEeerA64y2jiNjw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_Bh6y0LMgEeerA64y2jiNjw" name="Collaboration2">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Bh7Z4LMgEeerA64y2jiNjw" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Bh7Z4LMgEeerA64y2jiNjw" name="AcheterPacks">
         <eAnnotations xmi:id="_Bh8oALMgEeerA64y2jiNjw" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Bh8oAbMgEeerA64y2jiNjw" type="Sequence" element="_Bh7Z4LMgEeerA64y2jiNjw" name="Acheter Packs" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_Bh8oArMgEeerA64y2jiNjw" element="_Bh7Z4LMgEeerA64y2jiNjw" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
