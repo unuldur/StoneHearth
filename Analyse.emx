@@ -1311,9 +1311,6 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pqjRYagkEeefodlx4WHiKA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pqjRYKgkEeefodlx4WHiKA"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_2XE1sLZ6EeeAYqAHCNmUkQ" name="nbPacks" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedAttribute>
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_KCuPYKghEeefodlx4WHiKA" name="CoordonneesBancaire">
