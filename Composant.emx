@@ -5983,10 +5983,16 @@
         <ownedParameter xmi:id="_fOm8kM6oEee5yJ3eaYhhsw" name="pseudo">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_ZDtrIM6pEee5yJ3eaYhhsw" name="cartes" type="_Z77CUM6lEee5yJ3eaYhhsw" direction="return"/>
+        <ownedParameter xmi:id="_ZDtrIM6pEee5yJ3eaYhhsw" name="cartes" type="_Z77CUM6lEee5yJ3eaYhhsw" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ekXWoc6xEee5yJ3eaYhhsw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ekXWoM6xEee5yJ3eaYhhsw"/>
+        </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_pSPIMM6pEee5yJ3eaYhhsw" name="verifierAchatMax">
         <ownedParameter xmi:id="_sgpk8M6pEee5yJ3eaYhhsw" name="pseudo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_mNIe0M6xEee5yJ3eaYhhsw" name="rareteMax" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
@@ -6052,7 +6058,7 @@
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_aVl0o86nEee5yJ3eaYhhsw" type="Stereotype"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_aVl0pM6nEee5yJ3eaYhhsw" type="Name"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_aVl0pc6nEee5yJ3eaYhhsw" type="Parent"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aVl0oM6nEee5yJ3eaYhhsw" x="185" y="132" width="2619" height="16669"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aVl0oM6nEee5yJ3eaYhhsw" x="3771" y="186" width="2619" height="16669"/>
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_au2pMM6nEee5yJ3eaYhhsw" element="_auy-0M6nEee5yJ3eaYhhsw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
                   <eAnnotations xmi:id="_au2pMs6nEee5yJ3eaYhhsw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -6061,7 +6067,7 @@
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_au3QQc6nEee5yJ3eaYhhsw" type="Stereotype"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_au3QQs6nEee5yJ3eaYhhsw" type="Name"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_au3QQ86nEee5yJ3eaYhhsw" type="Parent"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_au2pMc6nEee5yJ3eaYhhsw" x="185" y="132" width="2301" height="16669"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_au2pMc6nEee5yJ3eaYhhsw" x="3475" y="450" width="2301" height="16669"/>
                 </children>
               </children>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_LLQYdM6nEee5yJ3eaYhhsw" type="Name"/>
@@ -6298,7 +6304,13 @@
             <body>anna</body>
           </argument>
         </message>
-        <message xmi:id="_oDQMkc6pEee5yJ3eaYhhsw" name="verifierAchatMax" messageSort="reply" receiveEvent="_oDQzoM6pEee5yJ3eaYhhsw" sendEvent="_oDQMkM6pEee5yJ3eaYhhsw" connector="_Nx4nA86oEee5yJ3eaYhhsw"/>
+        <message xmi:id="_oDQMkc6pEee5yJ3eaYhhsw" name="verifierAchatMax" messageSort="reply" receiveEvent="_oDQzoM6pEee5yJ3eaYhhsw" sendEvent="_oDQMkM6pEee5yJ3eaYhhsw" connector="_Nx4nA86oEee5yJ3eaYhhsw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_q0iu0M6xEee5yJ3eaYhhsw">
+            <eAnnotations xmi:id="_q0jV4M6xEee5yJ3eaYhhsw" source="Parameter" references="_sgpk8M6pEee5yJ3eaYhhsw"/>
+            <language></language>
+            <body>Legendaire</body>
+          </argument>
+        </message>
         <message xmi:id="_S4ozgM6qEee5yJ3eaYhhsw" name="getNom" receiveEvent="_S4pakM6qEee5yJ3eaYhhsw" sendEvent="_S4ozgc6qEee5yJ3eaYhhsw" connector="_S4qosc6qEee5yJ3eaYhhsw"/>
         <message xmi:id="_S4qBoc6qEee5yJ3eaYhhsw" name="getNom" messageSort="reply" receiveEvent="_S4qosM6qEee5yJ3eaYhhsw" sendEvent="_S4qBoM6qEee5yJ3eaYhhsw" connector="_S4qosc6qEee5yJ3eaYhhsw">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_YdDeUM6qEee5yJ3eaYhhsw">
@@ -6350,6 +6362,53 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_zWWmkc6rEee5yJ3eaYhhsw" name="ReceiveOperationEvent78" operation="_zWV_gM6rEee5yJ3eaYhhsw"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_UwIOsM6sEee5yJ3eaYhhsw" name="SendOperationEvent79" operation="_UwHnoM6sEee5yJ3eaYhhsw"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_UwIOsc6sEee5yJ3eaYhhsw" name="ReceiveOperationEvent79" operation="_UwHnoM6sEee5yJ3eaYhhsw"/>
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_hcsEEM6wEee5yJ3eaYhhsw" name="Collaboration2">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_hcsrIM6wEee5yJ3eaYhhsw" name="Interaction1">
+        <eAnnotations xmi:id="_hctSMM6wEee5yJ3eaYhhsw" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_hctSMc6wEee5yJ3eaYhhsw" type="Sequence" element="_hcsrIM6wEee5yJ3eaYhhsw" name="DiagrammeSéquenceComposant - Composer Deck" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_hctSMs6wEee5yJ3eaYhhsw" element="_hcsrIM6wEee5yJ3eaYhhsw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Text">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_hctSM86wEee5yJ3eaYhhsw" type="interaction_compartment">
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_rt2K0M6wEee5yJ3eaYhhsw" element="_rt08sM6wEee5yJ3eaYhhsw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+                  <eAnnotations xmi:id="_rt2x4M6wEee5yJ3eaYhhsw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_rt2x4c6wEee5yJ3eaYhhsw" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_rt2x4s6wEee5yJ3eaYhhsw" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_rt2x486wEee5yJ3eaYhhsw" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_rt2x5M6wEee5yJ3eaYhhsw" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rt2K0c6wEee5yJ3eaYhhsw" x="476" y="54" width="2037" height="9525"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_sHkSYM6wEee5yJ3eaYhhsw" element="_sHidMM6wEee5yJ3eaYhhsw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+                  <eAnnotations xmi:id="_sHkSYs6wEee5yJ3eaYhhsw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_sHkSY86wEee5yJ3eaYhhsw" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_sHkSZM6wEee5yJ3eaYhhsw" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_sHk5cM6wEee5yJ3eaYhhsw" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_sHk5cc6wEee5yJ3eaYhhsw" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHkSYc6wEee5yJ3eaYhhsw" x="2187" y="186" width="2619" height="9525"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_tHuH0M6wEee5yJ3eaYhhsw" element="_tHsSoM6wEee5yJ3eaYhhsw" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+                  <eAnnotations xmi:id="_tHuH0s6wEee5yJ3eaYhhsw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_tHuH086wEee5yJ3eaYhhsw" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_tHuH1M6wEee5yJ3eaYhhsw" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_tHuH1c6wEee5yJ3eaYhhsw" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_tHuH1s6wEee5yJ3eaYhhsw" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tHuH0c6wEee5yJ3eaYhhsw" x="2397" y="186" width="2301" height="9525"/>
+                </children>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_hctSNM6wEee5yJ3eaYhhsw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hctSNc6wEee5yJ3eaYhhsw" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+        <lifeline xmi:id="_rt08sM6wEee5yJ3eaYhhsw" name="cIHM" represents="_rt1jwM6wEee5yJ3eaYhhsw"/>
+        <lifeline xmi:id="_sHidMM6wEee5yJ3eaYhhsw" name="cJoueur" represents="_sHjEQM6wEee5yJ3eaYhhsw"/>
+        <lifeline xmi:id="_tHsSoM6wEee5yJ3eaYhhsw" name="cCarte" represents="_tHsSoc6wEee5yJ3eaYhhsw"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_rt1jwM6wEee5yJ3eaYhhsw" name="cIHM" type="_HBHvwM6mEee5yJ3eaYhhsw"/>
+      <ownedAttribute xmi:id="_sHjEQM6wEee5yJ3eaYhhsw" name="cJoueur" type="_FjmB0M6mEee5yJ3eaYhhsw"/>
+      <ownedAttribute xmi:id="_tHsSoc6wEee5yJ3eaYhhsw" name="cCarte" type="_GXPFQM6mEee5yJ3eaYhhsw"/>
+    </packagedElement>
     <profileApplication xmi:id="_4JguX86jEee5yJ3eaYhhsw">
       <eAnnotations xmi:id="_4JguYM6jEee5yJ3eaYhhsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
