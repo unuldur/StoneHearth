@@ -3070,7 +3070,7 @@
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_okpDpLMkEee6sb6BkW8rvg" type="Stereotype"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_okpDpbMkEee6sb6BkW8rvg" type="Name"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_okpDprMkEee6sb6BkW8rvg" type="Parent"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_okpDobMkEee6sb6BkW8rvg" x="2205" y="132" width="4153" height="21986"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_okpDobMkEee6sb6BkW8rvg" x="5004" y="185" width="4153" height="22251"/>
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_GbSjQLMlEee6sb6BkW8rvg" element="_Ga-aMLMlEee6sb6BkW8rvg" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GbSjQbMlEee6sb6BkW8rvg" x="-1" y="1453" height="185"/>
@@ -3253,7 +3253,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_RlCpcrMmEee6sb6BkW8rvg" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_RlCpdLMmEee6sb6BkW8rvg" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_RlCpdbMmEee6sb6BkW8rvg" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RlCpc7MmEee6sb6BkW8rvg" x="-435" y="-212" width="4709" height="633"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RlCpc7MmEee6sb6BkW8rvg" x="-144" y="-212" width="5291" height="633"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RlCpcbMmEee6sb6BkW8rvg" points="[0, 0, -282, 0]$[282, 0, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RlD3kLMmEee6sb6BkW8rvg" id="504:635"/>
