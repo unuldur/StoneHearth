@@ -8239,7 +8239,7 @@
         <message xmi:id="_AYBQYNQuEeeHs8pwAPjDHQ" name="getPrixPack" receiveEvent="_AYB3cdQuEeeHs8pwAPjDHQ" sendEvent="_AYB3cNQuEeeHs8pwAPjDHQ" connector="_AYCegNQuEeeHs8pwAPjDHQ"/>
         <message xmi:id="_AYB3dNQuEeeHs8pwAPjDHQ" name="getPrixPack" messageSort="reply" receiveEvent="_AYB3ddQuEeeHs8pwAPjDHQ" sendEvent="_AYB3c9QuEeeHs8pwAPjDHQ" connector="_AYCegNQuEeeHs8pwAPjDHQ"/>
       </ownedBehavior>
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_LwQKYNQiEeeNmfevWYId3w" name="Interaction1">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_LwQKYNQiEeeNmfevWYId3w" name="DetruireCarteNominal">
         <eAnnotations xmi:id="_LxECsNQiEeeNmfevWYId3w" source="uml2.diagrams" references="_LxECsdQiEeeNmfevWYId3w">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LxECsdQiEeeNmfevWYId3w" type="Sequence" element="_LwQKYNQiEeeNmfevWYId3w" name="détruireCarte" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_LxECstQiEeeNmfevWYId3w" element="_LwQKYNQiEeeNmfevWYId3w" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
@@ -8673,32 +8673,6 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Y_5CMNQnEeeHs8pwAPjDHQ" name="ReceiveOperationEvent93" operation="_3W0Z0NQmEeeHs8pwAPjDHQ"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_cWkqINQnEeeHs8pwAPjDHQ" name="SendOperationEvent94" operation="_L-HN8NQnEeeHs8pwAPjDHQ"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_cWlRMNQnEeeHs8pwAPjDHQ" name="ReceiveOperationEvent94" operation="_L-HN8NQnEeeHs8pwAPjDHQ"/>
-    <packagedElement xmi:type="uml:Collaboration" xmi:id="_miOl0NQnEeeHs8pwAPjDHQ" name="Collaboration1">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_miRCENQnEeeHs8pwAPjDHQ" name="Interaction1">
-        <eAnnotations xmi:id="_miRpINQnEeeHs8pwAPjDHQ" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_miRpIdQnEeeHs8pwAPjDHQ" type="Sequence" element="_miRCENQnEeeHs8pwAPjDHQ" measurementUnit="Himetric">
-            <children xmi:type="umlnotation:UMLShape" xmi:id="_miRpItQnEeeHs8pwAPjDHQ" element="_miRCENQnEeeHs8pwAPjDHQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Text">
-              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_miRpI9QnEeeHs8pwAPjDHQ" type="interaction_compartment"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_miRpJNQnEeeHs8pwAPjDHQ" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_miRpJdQnEeeHs8pwAPjDHQ" x="793" y="793"/>
-            </children>
-          </contents>
-        </eAnnotations>
-      </ownedBehavior>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Collaboration" xmi:id="_pt_-QNQnEeeHs8pwAPjDHQ" name="Collaboration2">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_puBzcNQnEeeHs8pwAPjDHQ" name="Interaction1">
-        <eAnnotations xmi:id="_puDooNQnEeeHs8pwAPjDHQ" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_puDoodQnEeeHs8pwAPjDHQ" type="Sequence" element="_puBzcNQnEeeHs8pwAPjDHQ" name="AcheterPacksNominal" measurementUnit="Himetric">
-            <children xmi:type="umlnotation:UMLShape" xmi:id="_puDootQnEeeHs8pwAPjDHQ" element="_puBzcNQnEeeHs8pwAPjDHQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Text">
-              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_puDoo9QnEeeHs8pwAPjDHQ" type="interaction_compartment"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_puDopNQnEeeHs8pwAPjDHQ" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_puDopdQnEeeHs8pwAPjDHQ" x="793" y="793"/>
-            </children>
-          </contents>
-        </eAnnotations>
-      </ownedBehavior>
-    </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_iZ63MNQoEeeHs8pwAPjDHQ" name="SendOperationEvent95"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_iZ7eQNQoEeeHs8pwAPjDHQ" name="ReceiveOperationEvent95"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_E7mtINQqEeeHs8pwAPjDHQ" name="SendOperationEvent96" operation="_6oHrINQpEeeHs8pwAPjDHQ"/>
