@@ -6767,7 +6767,7 @@
       <ownedOperation xmi:id="_Fg018NXeEeekZ-g1AT3img" name="ajouteJoueur">
         <ownedParameter xmi:id="_Dq8N0NgMEeeRc8nTtzORVw" name="pseudo"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_9YhU4NgIEeeRc8nTtzORVw" name="getRandomJoueur()">
+      <ownedOperation xmi:id="_9YhU4NgIEeeRc8nTtzORVw" name="getRandomJoueur">
         <ownedParameter xmi:id="_DKT34NgKEeeRc8nTtzORVw" name="rang"/>
         <ownedParameter xmi:id="_Iv9RwNgKEeeRc8nTtzORVw" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -9802,6 +9802,7 @@
       </ownedOperation>
       <ownedOperation xmi:id="_1Hgg8NgIEeeRc8nTtzORVw" name="rechercherJoueurCherchantPartie">
         <ownedParameter xmi:id="_9rEoANgJEeeRc8nTtzORVw" name="rang"/>
+        <ownedParameter xmi:id="_9SChMNmvEeeZyqvfVFiv6w" name="pseudo"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_u8wQQNXWEee-nPG0EUYKLw" name="IJoueurConnecte">
@@ -11030,7 +11031,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e94sg9gKEeeRc8nTtzORVw" y="-317"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e94sgdgKEeeRc8nTtzORVw" points="[0, 0, -168, 0]$[168, 0, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e94shtgKEeeRc8nTtzORVw" id="766:397"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e94shtgKEeeRc8nTtzORVw" id="766:1613"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e94sh9gKEeeRc8nTtzORVw" id="855:0"/>
             </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_e-o6cNgKEeeRc8nTtzORVw" element="_e8_7tdgKEeeRc8nTtzORVw" source="_4A920tgHEeeRc8nTtzORVw" target="_0V9kstgHEeeRc8nTtzORVw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -11229,6 +11230,11 @@
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_D1c8ENgJEeeRc8nTtzORVw">
             <language></language>
             <body>15</body>
+          </argument>
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_DF_c0NmwEeeZyqvfVFiv6w">
+            <eAnnotations xmi:id="_DGAD4NmwEeeZyqvfVFiv6w" source="Parameter" references="_9SChMNmvEeeZyqvfVFiv6w"/>
+            <language></language>
+            <body>anna</body>
           </argument>
         </message>
         <message xmi:id="_u2pm5dgIEeeRc8nTtzORVw" name="rechercherJoueurCherchantPartie" messageSort="reply" receiveEvent="_u2pm5tgIEeeRc8nTtzORVw" sendEvent="_u2pm5NgIEeeRc8nTtzORVw" connector="_u2pm59gIEeeRc8nTtzORVw"/>
@@ -14044,7 +14050,7 @@
       <ownedOperation xmi:id="_dOYRMNgfEeeRc8nTtzORVw" name="ouvrirPack">
         <ownedParameter xmi:id="_LwYT0NggEeeRc8nTtzORVw" name="pack"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_nDf8MNgfEeeRc8nTtzORVw" name="supprimerPack()">
+      <ownedOperation xmi:id="_nDf8MNgfEeeRc8nTtzORVw" name="supprimerPack">
         <ownedParameter xmi:id="_NpKaYNggEeeRc8nTtzORVw" name="pack"/>
       </ownedOperation>
       <ownedOperation xmi:id="_mnHQQNghEeeRc8nTtzORVw" name="addPacks"/>
